@@ -1,0 +1,80 @@
+body{background:#2038b9;background-image:url(../img/projects/projects-bg.png)}
+            .prettybtn{background: linear-gradient( to right, #4c49ee, #E84ADB);font-weight:300;color:#fff;font-family:"Space Mono";padding:1em;display:inline-block;width:150px;text-align: center;border-radius:25px;text-decoration:none;-webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; transition: all .3s linear;}
+            
+            .prettybtn:hover{box-shadow:0 0 20px #bf0047;text-shadow:0 0 10px #fff;}
+
+.projectp{
+    background:#fff;
+    box-sizing: border-box;
+    padding:1em;
+    border-radius:.4em;
+    font-weight:100;
+    text-align: justify;
+    font-size:16px;
+    line-height:24px;
+}
+
+.projectgray{
+    padding:1em;
+    background:#F2F6FA;
+    border-radius:20px;
+    color:#1c3453;
+    font-weight:100;
+}
+
+#project h1{
+    color:#fff;
+    text-shadow:0 0 40px #ccc;
+}
+
+.projectp h3{
+    display:block;
+    background:#fff;
+}
+
+
+.landingproject-box{
+    display:inline-block;
+    width:200px;
+    padding:1em;
+    margin:1em .3em .3  em .3em;
+}
+
+h1{font-size:24pt;margin:0;text-align: center; font-family:"Poppins"; color:#20218A}
+
+.landingproject-box img{padding:.2em;}
+
+.landingproject-box h1{
+    text-align: left;
+    font-size:15pt;
+    font-weight: 500;
+    margin-top:.3em;
+    color:#444952;
+}
+
+.landingproject-box a{
+    font-family:"Poppins"; font-weight:700;
+    font-size:11pt;
+    color:#444952;
+    margin-top:.5em;
+    text-align: left;
+    display:block;
+    -webkit-transition: all .2s linear;-moz-transition: all .2s linear;-ms-transition: all .2s linear;-o-transition: all .2s linear;transition: all .2s linear;
+    text-decoration: none;
+    text-shadow:0 0 20px #ccc;
+}
+
+.landingproject-box a:hover{cursor: help; color:#20237A;}
+
+.landingproject-box i{font-size:11px;}
+
+.landingproject-box p{
+    color:#677791;
+    font-weight:200;
+    text-align: left;
+    font-size:14px;
+    line-height:22px;
+    margin:0;
+}
+
+
