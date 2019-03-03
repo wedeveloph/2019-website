@@ -354,7 +354,7 @@ h1 {
     font-size: 17pt;
     font-family: "Work Sans";
     line-height: 23pt;
-    text-shadow: 0 0 10px #3280e5;
+    text-shadow: 0 0 40px #3280e5;
 }
 
 .content-block h2 {
@@ -497,4 +497,46 @@ p a:hover {
     to {
         background-position: 1000px -5000px;
     }
+}
+
+.landing-links {
+    width: 90%;
+}
+
+.landing-link-container {
+    display: inline-block;
+    width: 280px;
+    border-bottom: #f2f7f6 1px solid !important;
+    text-decoration: none !important;
+    padding: .4em;
+    text-align: left;
+}
+
+.landing-link-container a {
+    text-decoration: none;
+}
+
+.landing-link-container h1 {
+    padding-top: 1em;
+    font-size: 24px;
+    text-align: left;
+    color: #a8e0db;
+    font-family: "Termina";
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.landing-link-container p {
+    font-size: 16.5px;
+    color: #f2f7f6;
+    margin: .3em 0 .4em 0;
+}
+
+.landing-link-container:hover h1 {
+    color: #d8fff7;
+}
+
+.landing-link-container:hover p {
+    text-shadow: 2px 1px blue;
+    color: #c4f2e8;
 }
