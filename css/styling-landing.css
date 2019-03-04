@@ -490,9 +490,10 @@ p a:hover {
     width: 280px;
     border-bottom: #f2f7f6 1px solid !important;
     text-decoration: none !important;
-    padding: .4em;
+    padding: .9em;
     text-align: left;
     text-shadow: 0;
+    margin: 0 .3em 0 .3em;
     color: #fff;
 }
 
