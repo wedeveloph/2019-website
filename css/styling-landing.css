@@ -333,9 +333,9 @@ h1 {
 #landing p {
     color: #EDEEF5;
     font-weight: 100;
-    font-size: 19pt;
+    font-size: 12pt;
     font-family: "Work Sans";
-    line-height: 26pt;
+    line-height: 24pt;
     text-shadow: 0 0 40px #3280e5;
 }
 
@@ -503,10 +503,10 @@ p a:hover {
 
 .landing-link-container h1 {
     padding-top: 1em;
-    font-size: 24px;
+    font-size: 22px;
     text-align: left;
     color: #a8e0db;
-    font-family: "Termina";
+    font-family: "Termina" !important;
     font-weight: 500;
     text-decoration: underline;
 }
@@ -514,6 +514,7 @@ p a:hover {
 .landing-link-container p {
     font-size: 16.5px;
     color: #f2f7f6;
+    line-height: 20px;
     margin: .3em 0 .4em 0;
 }
 
