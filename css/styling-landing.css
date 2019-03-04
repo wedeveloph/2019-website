@@ -361,21 +361,6 @@ h2 {
     line-height: 20px;
 }
 
-p a {
-    font-weight: 800;
-    background: linear-gradient(to right, #EB469B 0%, #FABED3 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    filter: drop-shadow(2px 2px 5px #3B2AAD);
-    -webkit-transition: all .3s linear;
-    -moz-transition: all .3s linear;
-    -ms-transition: all .3s linear;
-    -o-transition: all .3s linear;
-    transition: all .3s linear;
-    text-shadow: 0;
-    filter: drop-shadow(2px 2px 0 transparent);
-}
-
 p a:hover {
     filter: drop-shadow(2px 2px 5px #E089C9);
 }
