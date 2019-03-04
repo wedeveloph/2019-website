@@ -307,6 +307,42 @@ h2 {
     margin: 0;
 }
 
+@font-face {
+    font-family: 'Termina';
+    src: url('../fonts/TerminaBold.eot');
+    src: url('../fonts/TerminaBold.eot') format('embedded-opentype'),
+        url('../fonts/TerminaBold.woff2') format('woff2'),
+        url('../fonts/TerminaBold.woff') format('woff'),
+        url('../fonts/TerminaBold.ttf') format('truetype'),
+        url('../fonts/TerminaBold.svg#TerminaBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Termina';
+    src: url('../fonts/TerminaMedium.eot');
+    src: url('../fonts/TerminaMedium.eot') format('embedded-opentype'),
+        url('../fonts/TerminaMedium.woff2') format('woff2'),
+        url('../fonts/TerminaMedium.woff') format('woff'),
+        url('../fonts/TerminaMedium.ttf') format('truetype'),
+        url('../fonts/TerminaMedium.svg#TerminaMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Termina';
+    src: url('../fonts/TerminaDemi.eot');
+    src: url('../fonts/TerminaDemi.eot') format('embedded-opentype'),
+        url('../fonts/TerminaDemi.woff2') format('woff2'),
+        url('../fonts/TerminaDemi.woff') format('woff'),
+        url('../fonts/TerminaDemi.ttf') format('truetype'),
+        url('../fonts/TerminaDemi.svg#TerminaDemi') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
 
 @font-face {
     font-family: 'HK Grotesk';
@@ -366,29 +402,6 @@ h2 {
 }
 
 
-@font-face {
-    font-family: 'Termina';
-    src: url('Termina-Bold.woff2') format('woff2'),
-        url('Termina-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Termina';
-    src: url('Termina-Medium.woff2') format('woff2'),
-        url('Termina-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Termina Demi';
-    src: url('Termina-Demi.woff2') format('woff2'),
-        url('Termina-Demi.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-}
 
 
 
