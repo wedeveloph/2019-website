@@ -165,18 +165,14 @@ body {
     color: cyan;
 }
 
-#landing-topnav {
-    position: absolute;
-    padding: .5em;
-    width: 100%;
-}
 
 #landing-topnav {
+    position: absolute;
     height: 90px;
-    width: 90%;
+    max-width: 1200px;
+    width: 95%;
     padding: 1em;
     box-sizing: border-box;
-    max-width: 900px;
     margin: 0 auto;
     top: 0;
     left: 0;
@@ -187,21 +183,25 @@ body {
 .topnav-logo {
     float: left;
     margin-left: -20px !important;
+    max-width: 35%;
+    height: 50px;
 }
 
 .topnav-logo img {
-    height: 50px;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .topnav-right {
     right: 0;
     position: absolute;
     z-index: 9;
-    max-width: 70%;
+    font-family: "Termina";
     text-align: right;
     color: #F0F2FA;
     font-weight: 900 !important;
-    margin-top: .6em;
+    margin-top: .7em;
+    max-width: 60%;
 }
 
 .within {

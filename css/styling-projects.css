@@ -1,12 +1,4 @@
-.topnav-right a{
-    color:#fff;
-    font-family: "Poppins";
-    font-weight:800;
-    text-decoration: none;
-    margin-left:.5em;
-}
-
-.topnav-right a:hover{
+.topnav-right a:hover {
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
     -ms-transition: all .3s linear;
@@ -14,40 +6,49 @@
     transition: all .3s linear;
 }
 
-h1{font-family:"Lack Line";font-weight:100;}
+h1 {
+    font-family: "Lack Line";
+    font-weight: 100;
+}
 
-body{font-family:"HK Grotesk";}
-a{color:#AEE8EB; font-weight:800;}
+body {
+    font-family: "HK Grotesk";
+}
 
-#content-block h2{
-    font-family:"Rubik";
-    color:#A8DEE0;
-    margin:.5em;
+a {
+    color: #AEE8EB;
+    font-weight: 800;
+}
+
+#content-block h2 {
+    font-family: "Rubik";
+    color: #A8DEE0;
+    margin: .5em;
     text-transform: uppercase;
-    font-size:26px;
-    letter-spacing:1.2px;
+    font-size: 26px;
+    letter-spacing: 1.2px;
 }
 
-#content-block p{
-    color:#fff;
-    font-weight:100;
-    font-size:17px;
-    line-height:26px;
+#content-block p {
+    color: #fff;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 26px;
     text-align: left;
-    font-family:"HK Grotesk";
+    font-family: "HK Grotesk";
 }
 
-#content-block .content-button{
-    display:inline-block;
-    color:#fff;
-    font-family:"Rubik";
-    border:solid 2px #A8DEE0;
-    padding:.8em;
-    margin:1em;
-    width:150px;
+#content-block .content-button {
+    display: inline-block;
+    color: #fff;
+    font-family: "Rubik";
+    border: solid 2px #A8DEE0;
+    padding: .8em;
+    margin: 1em;
+    width: 150px;
     text-decoration: none;
-    color:#fff;
-    box-shadow:#2833AD 1px 0 20px;
+    color: #fff;
+    box-shadow: #2833AD 1px 0 20px;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
     -ms-transition: all .3s linear;
@@ -56,103 +57,117 @@ a{color:#AEE8EB; font-weight:800;}
 }
 
 
-#content-block .content-button:hover{
- text-shadow:#fff 0 0 20px;
-    border:solid 2px #A8DEE0;
-    color:#A8DEE0;
-    
+#content-block .content-button:hover {
+    text-shadow: #fff 0 0 20px;
+    border: solid 2px #A8DEE0;
+    color: #A8DEE0;
+
 }
 
 
-.project-content h1{
-    font-family:"Poppins";
-    color:#fff;
+.project-content h1 {
+    font-family: "Poppins";
+    color: #fff;
 }
 
 /* PROJECT BOXES */
 
-.large-project-box{
-    display:inline-block;
-    padding:2em;
-    margin-top:2em;
+.large-project-box {
+    display: inline-block;
+    padding: 2em;
+    margin-top: 2em;
 }
 
-.large-project-box h1{
-    font-family:"Rubik";
-    font-weight:800;
-    margin:0;
+.large-project-box h1 {
+    font-family: "Rubik";
+    font-weight: 800;
+    margin: 0;
 }
 
-.large-project-box p{
+.large-project-box p {
     text-align: center !important;
     background-color: rgba(11, 18, 94, .5);
-    padding:1em;
+    padding: 1em;
 }
 
-.large-project-box a{
-    display:block;
-    padding:.3em;
-    font-family:"Poppins";
-    font-size:20px;
+.large-project-box a {
+    display: block;
+    padding: .3em;
+    font-family: "Poppins";
+    font-size: 20px;
     text-decoration: none;
 }
 
 
-.project-box{
-    display:inline-block;
-    width:330px;
-    padding:1em;
-    margin:1em .3em .3  0 .3em;
+.project-box {
+    display: inline-block;
+    width: 330px;
+    padding: 1em;
+    margin: 1em .3em .3 0 .3em;
 }
 
-.project-box img{padding:.2em 0 .8em 0;}
+.project-box img {
+    padding: .2em 0 .8em 0;
+}
 
-.project-box h1{
-    display:inline;
-    float:left !important;
+.project-box h1 {
+    display: inline;
+    float: left !important;
     text-align: left;
-    font-size:15pt;
+    font-size: 15pt;
     font-weight: 800;
-    margin-top:.3em;
-    color:#fff;
-    text-shadow:0 0 15px #14249c;
-    font-family:"Rubik";
-    margin:0;
+    margin-top: .3em;
+    color: #fff;
+    text-shadow: 0 0 15px #14249c;
+    font-family: "Rubik";
+    margin: 0;
 }
 
-.project-box a{
-    font-family:"Poppins"; font-weight:700;
-    font-size:11pt;
-    color:#fff;
-    margin-top:.5em;
+.project-box a {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 11pt;
+    color: #fff;
+    margin-top: .5em;
     text-align: left;
-    display:block;
-    -webkit-transition: all .2s linear;-moz-transition: all .2s linear;-ms-transition: all .2s linear;-o-transition: all .2s linear;transition: all .2s linear;
+    display: block;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
     text-decoration: none;
-    text-shadow:0 0 50px #fff;
+    text-shadow: 0 0 50px #fff;
 }
 
-.project-box a:hover{cursor: help; color:#20237A;}
+.project-box a:hover {
+    cursor: help;
+    color: #20237A;
+}
 
-.project-box i{font-size:11px;}
+.project-box i {
+    font-size: 11px;
+}
 
-.project-box p{
-    color:#E6D5D8;
-    font-weight:200;
+.project-box p {
+    color: #E6D5D8;
+    font-weight: 200;
     text-align: left;
-    margin:0;
-    clear:both;
-    font-size:15px !important;
-    line-height:23px !important;
+    margin: 0;
+    clear: both;
+    font-size: 15px !important;
+    line-height: 23px !important;
 }
 
-.project-heading{clear:both;}
+.project-heading {
+    clear: both;
+}
 
-.project-type{
-    float:right;
-    margin:0;
-    display:inline;
-    font-family:"HK Grotesk";
-    color:#fff;
-    font-weight:100;
+.project-type {
+    float: right;
+    margin: 0;
+    display: inline;
+    font-family: "HK Grotesk";
+    color: #fff;
+    font-weight: 100;
 }
