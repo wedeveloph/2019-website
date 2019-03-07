@@ -149,11 +149,10 @@ body {
 
 .topnav-right a {
     color: #fff;
-    font-family: "Termina";
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
     margin-left: .8em;
-    font-size: 15px;
+    font-size: 16.5px;
 }
 
 .topnav-right a:hover {
@@ -199,7 +198,6 @@ body {
     font-family: "Termina";
     text-align: right;
     color: #F0F2FA;
-    font-weight: 900 !important;
     margin-top: .7em;
     max-width: 60%;
 }
