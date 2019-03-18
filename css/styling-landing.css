@@ -505,3 +505,27 @@ p a:hover {
     text-shadow: 2px 1px blue;
     color: #c4f2e8;
 }
+
+#Programs a:hover {
+    box-shadow: 0 5px 20px #f7f8f9;
+    text-shadow: 0 0 20px #fff;
+}
+
+#Programs .interestbutton {
+    box-shadow: 0 5px 20px #ccc;
+    display: inline-block;
+    background: #00b4db;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00b4db, #0083b0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00b4db, #0083b0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 15px;
+    width: 250px;
+    font-family: 'rubik';
+    font-weight: 800;
+}
