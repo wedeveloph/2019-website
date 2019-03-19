@@ -63,13 +63,14 @@ a {
     font-size: 15px;
     margin: .5em 0 .5em 0;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: .4px;
 }
 
 .landinggif {
     width: 110px;
     display: block;
 }
+
 
 
 
@@ -507,11 +508,15 @@ p a:hover {
     color: #c4f2e8;
 }
 
-#Programs a:hover {
+#programs p a {
+    text-decoration: none;
+}
+
+#programs a:hover {
     text-shadow: 0 0 20px #fff;
 }
 
-#Programs .interestbutton {
+#programs .interestbutton {
     box-shadow: 0 5px 20px #ccc;
     display: inline-block;
     background: #00b4db;

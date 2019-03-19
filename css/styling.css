@@ -5,6 +5,9 @@ html {
 body {
     font-family: 'Work Sans', sans-serif;
     background: #f5f6f9;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 #footer {
@@ -29,12 +32,18 @@ body {
     color: #fff;
     padding-top: .5em;
     font-size: 13px;
+    font-family: "Rubik";
 }
 
 #footer .innerfooter {
     width: 90%;
     max-width: 800px;
     margin: auto;
+}
+
+#footer .innerfooter a {
+    text-decoration: none;
+    color: #fff;
 }
 
 #footer p {
@@ -290,7 +299,7 @@ h2 {
 
 
 #description-block {
-    background: #EBECF5;
+    background: #262728;
 }
 
 #description-block h3 {
@@ -299,8 +308,8 @@ h2 {
 }
 
 #description-block p {
-    color: #585F61 !important;
-    padding: 1em;
+    color: #f7f8f9 !important;
+    padding: .5em .4em 0 .4em;
     line-height: 26px;
     margin: 0;
 }
