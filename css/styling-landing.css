@@ -508,7 +508,6 @@ p a:hover {
 }
 
 #Programs a:hover {
-    box-shadow: 0 5px 20px #d9dbdd;
     text-shadow: 0 0 20px #fff;
 }
 
