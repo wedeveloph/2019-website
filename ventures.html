@@ -75,7 +75,23 @@
             transition: all 0.3s linear;
         }
 
-        .venture-box {}
+        .venture-box {
+            display: inline-block;
+            width: 350px;
+            color: #fff;
+            margin: 1em;
+            border-bottom: 1px solid #4d4e51;
+            padding: .5em;
+        }
+
+        .venture-box h1 {
+            color: #fff;
+            font-size: 22px;
+        }
+
+        .venture-box p {
+            color: #fff;
+        }
 
         .program-box {
             width: 450px;
@@ -153,6 +169,10 @@
             text-shadow: 0 0 53px #fff;
             box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
         }
+
+        h1 {
+            margin: 0;
+        }
     </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -182,7 +202,7 @@
             </div>
         </div>
 
-        <div class="box" id="top" style="background-image:url(../img/header-ventures.png);background-position: center top; min-height:360px;">
+        <div class="box" id="top" style="background-image:url(../img/header-ventures.png);background-position: center top; min-height:310px;">
             <div class="boxinner" style="width:80%;max-width:600px;margin:auto;padding-top:120px;text-align:center;color:#fff;">
                 <h1 style="font-size:36pt;margin-bottom:.5pt;margin-top:1.5pt;font-family:Lack Line;color:#fff;font-weight:100;">
                     Ventures
@@ -197,16 +217,23 @@
         </div>
 
         <div class="box" id="content">
-            <div class="boxinner" style="width:90%;padding:1em;max-width:900px;text-align:center;margin:auto;padding-bottom:5em;color:#fff;background-image:url(img/ventures-tile.png);background-size:contain;">
+            <div class="boxinner" style="width:90%;padding:1em;max-width:1100px;text-align:center;margin:auto;padding-bottom:5em;color:#fff;background-image:url(img/ventures-tile.png);background-size:contain;">
 
                 <div class="venture-box">
+                    <img src="img/ventures/icon-ibotoph.png" style="width:80px;">
                     <h1>Iboto.ph</h1>
-                    <img src="img">
-                    <p><strong>Build Fellowship&mdash;</strong></p>
-                    <a href="#">Learn more</a>
+                    <p>Iboto.ph is a civic engagement platform that seeks to campaign for progressive Filipino candidates these 2019 Midterm Elections.</p>
                 </div>
 
-                <h1 style="color:#edeef2;font-size:24px;font-family:'Rubik';">Programs</h1><br>
+
+                <div class="venture-box">
+                    <img src="img/ventures/icon-labandera.png" style="width:80px;">
+                    <h1>Labandera</h1>
+                    <p>Feminism, girlhood, culture, movements. Labandera is a digital publication advancing social movements and expressions from the developing world.</p>
+                </div><br><br><br>
+
+
+                <h1 style="color:#edeef2;font-size:24px;font-family:'Rubik';">Programs we offer</h1><br>
                 <center>
                     <div class="program-box">
                         <h1>Build Fellowship</h1>
@@ -232,7 +259,7 @@
                     <i class="fa fa-star"></i>
                     <strong>Implementation & Scaling</strong>
                 </div>
-
+                <br><br>
                 <a class="bigbtn" href="mailto:wedeveloph@gmail.com">Reach Us</a>
 
 
