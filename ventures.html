@@ -109,6 +109,50 @@
         .program-box a:hover {
             text-shadow: none;
         }
+
+        .how-help {
+            width: 170px;
+            display: inline-block;
+        }
+
+        .how-help i {
+            display: block;
+            font-size: 32px;
+            padding-bottom: .3em;
+        }
+
+        .how-help strong {
+            font-weight: 100;
+            font-size: 14px;
+
+        }
+
+        .bigbtn {
+            display: inline-block;
+            width: 200px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #fff;
+            font-family: "Poppins";
+            font-weight: 800;
+            box-shadow: 0 5px 20px #1a1a1c;
+            height: 30px;
+            line-height: 30px;
+            margin: 1em;
+            padding: .3em;
+            background: #396afc;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #2948ff, #396afc);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #2948ff, #396afc);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+        .bigbtn:hover {
+            transform: translateY(-3px);
+            text-shadow: 0 0 53px #fff;
+            box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+        }
     </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -153,7 +197,7 @@
         </div>
 
         <div class="box" id="content">
-            <div class="boxinner" style="width:90%;padding:1em;max-width:900px;text-align:center;margin:auto;padding-bottom:5em;color:#fff;">
+            <div class="boxinner" style="width:90%;padding:1em;max-width:900px;text-align:center;margin:auto;padding-bottom:5em;color:#fff;background-image:url(img/ventures-tile.png);background-size:contain;">
 
                 <div class="venture-box">
                     <h1>Iboto.ph</h1>
@@ -171,7 +215,26 @@
                 </center>
                 <br><br><br>
                 <h1 style="color:#edeef2;font-size:24px;font-family:'Rubik';">Are you building something cool?</h1>
-                <p style="color:#fff;line-height:24px;">We'd love to hear about it. Developh works with students working on social impact ventures, assisting with technical skill development, funding, mentorship, and platforms for further impact.</p>
+                <p style="color:#fff;line-height:24px;">We'd love to hear about it. Developh works with students working on social impact ventures, assisting with technical skill development, funding, mentorship, and platforms for further impact.</p><br>
+
+                <div class="how-help">
+                    <i class="fa fa-keyboard-o"></i>
+                    <strong>Technical Training & Funds</strong>
+                </div>
+
+                <div class="how-help">
+                    <i class="fa fa-handshake-o"></i>
+                    <strong>Network & Mentorship</strong>
+                </div>
+
+
+                <div class="how-help">
+                    <i class="fa fa-star"></i>
+                    <strong>Implementation & Scaling</strong>
+                </div>
+
+                <a class="bigbtn" href="mailto:wedeveloph@gmail.com">Reach Us</a>
+
 
             </div>
         </div>
