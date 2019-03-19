@@ -53,6 +53,10 @@
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
     <style>
+        body {
+            color: #edeef2;
+        }
+
         .issuep {
             font-size: 0.9em !important;
             line-height: 2em !important;
@@ -71,18 +75,40 @@
             transition: all 0.3s linear;
         }
 
-        .getinvolved-link h3 {
-            margin: 0;
-            font-family: "Rubik";
-            color: #fff;
-            border-bottom: 2px solid #c4f2f5;
+        .venture-box {}
+
+        .program-box {
+            width: 450px;
+            display: block;
+
         }
 
-        .getinvolved-link:hover {
-            color: #a3f7cc;
-            text-shadow: 0 0 50px #a3f7cc;
+        .program-box h1 {
+            font-size: 17px;
+            font-family: "Termina";
+            color: #f9fafc;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            padding: .5em;
         }
 
+        .program-box p {
+            text-align: justify;
+            color: #595b60;
+            background: #f4f5f7;
+            padding: 1em;
+        }
+
+        .program-box a {
+            color: blue;
+            text-decoration: none;
+            font-weight: 800;
+            text-shadow: 0 0 20px #dadde5;
+        }
+
+        .program-box a:hover {
+            text-shadow: none;
+        }
     </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -98,7 +124,7 @@
     </script>
 </head>
 
-<body style="background:#2038b9;color:#fff;">
+<body style="background:#1d1d1f;color:#edeef2;">
     <div class="container">
         <div id="landing-topnav">
             <div class="topnav-logo">
@@ -112,7 +138,7 @@
             </div>
         </div>
 
-        <div class="box" id="top" style="background-image:url(../img/about.png);background-position: center top; min-height:360px;">
+        <div class="box" id="top" style="background-image:url(../img/header-ventures.png);background-position: center top; min-height:360px;">
             <div class="boxinner" style="width:80%;max-width:600px;margin:auto;padding-top:120px;text-align:center;color:#fff;">
                 <h1 style="font-size:36pt;margin-bottom:.5pt;margin-top:1.5pt;font-family:Lack Line;color:#fff;font-weight:100;">
                     Ventures
@@ -121,46 +147,43 @@
                     We're supporting student-led innovation through kickstarting
                     projects inside and outside of the Developh ecosystem. We give
                     students the training to launch small and big things, and help those
-                    interested in entering competitions, accelerators, and more. Meet
-                    our amazing students and the social impact projects they're working
-                    on.
+                    interested in entering competitions, accelerators, and more.
                 </p>
             </div>
         </div>
 
         <div class="box" id="content">
-            <div class="boxinner" style="width:90%;padding:1em;max-width:900px;text-align:center;margin:auto;padding-bottom:5em;margin-top:30px;">
+            <div class="boxinner" style="width:90%;padding:1em;max-width:900px;text-align:center;margin:auto;padding-bottom:5em;color:#fff;">
 
                 <div class="venture-box">
-                    <h1>Venture Title</h1>
+                    <h1>Iboto.ph</h1>
                     <img src="img">
-                    <p>Donec egestas est dui, sed mollis justo sollicitudin a. Pellentesque in nibh pharetra, tempus purus eget, iaculis diam. Nulla eu pulvinar lectus, ac eleifend velit. Morbi vel tristique turpis, at fermentum felis. Donec malesuada nibh pellentesque neque dapibus imperdiet. Fusce sed porttitor risus. Integer gravida libero arcu, vel vestibulum mauris efficitur vehicula. Maecenas accumsan mi erat, quis egestas orci ullamcorper sed. Nullam dignissim vulputate arcu et placerat. Sed ut lectus efficitur, posuere tortor in, luctus ex. Vivamus volutpat magna sapien, vel dignissim eros imperdiet vel. Ut in mattis felis. Quisque lobortis risus nec lorem commodo, non facilisis odio pharetra. Donec eu scelerisque nisl.</p>
+                    <p><strong>Build Fellowship&mdash;</strong></p>
                     <a href="#">Learn more</a>
                 </div>
 
-                <img src="img/ventures/prev-flowia.png" />
-                <img src="img/ventures/prev-ibotoph.png" />
-                <h1 style="color:#fff;">Learn more soon</h1>
-                <center></center>
+                <h1 style="color:#edeef2;font-size:24px;font-family:'Rubik';">Programs</h1><br>
+                <center>
+                    <div class="program-box">
+                        <h1>Build Fellowship</h1>
+                        <p>In coordination with social impact organizations, our Build Fellowship invites in student fellows to work on social impact-focused, technological projects. Students get a grasp of working in real development environments, while building projects that matter and getting a say in their development. <a href="https://medium.com/developh/announcing-the-build-fellowship-connecting-tech-with-mission-2b9191cb11c">Read about the Fellowship</a></p>
+                    </div>
+                </center>
+                <br><br><br>
+                <h1 style="color:#edeef2;font-size:24px;font-family:'Rubik';">Are you building something cool?</h1>
+                <p style="color:#fff;line-height:24px;">We'd love to hear about it. Developh works with students working on social impact ventures, assisting with technical skill development, funding, mentorship, and platforms for further impact.</p>
+
             </div>
         </div>
 
+
+
         <div class="box" id="description-block">
             <div class="boxinner" style="width:90%;padding:1em;max-width:1000px;text-align:center;margin:auto;">
-                <h3>About Developh</h3>
-                <p>
-                    Since starting out as a school club in 2016 in Muntinlupa,
-                    Philippines made to introduce a tech community, share concepts, and
-                    build projects, our group of students and friends quickly realized
-                    that even in our position at a private high school with several
-                    resources, we weren't given the right education and resources to
-                    truly explore tech. Knowing that this disparity was even more
-                    evident in the schools around us and recognizing the importance of
-                    building things for the world, we sought to spread technology and
-                    innovation to Manila, the rest of the Philippines, then the world.
-                    We're students concerned about the growing innovation gap, believing
-                    student-led technology through education and community is key to a
-                    better world.
+                <h3 style="text-transform: uppercase;font-family:'Poppins';font-size:18px;letter-spacing:0.4px;color:#8e96a0;text-align: ">About Developh</h3>
+                <p style="text-align: justify;">
+                    We're at a unique point in time where groundbreaking
+                    things can be launched from a bedroom—it's time for us to harness that. We're a student-run nonprofit organization working to make technology more accessible in the hands of students across the developing world, nurturing student founders, developers, designers, and changemakers. Our initiatives span education and innovation: beginning from exposure and outreach to helping students launch tangible, impact-oriented ventures in their communities. Since our founding in 2016, we've impacted over 60,000 students in over fifteen countries.
                 </p>
                 <!-- Begin MailChimp Signup Form -->
                 <style type="text/css">
@@ -189,17 +212,14 @@
                         vertical-align: top;
                         background: 0;
                         text-align: center;
-                        color: #000 !important;
+                        color: #e8edf2 !important;
+                        text-transform: uppercase;
                     }
 
                     #mc_embed_signup label {
                         display: block;
                         font-size: 16px;
                         padding-bottom: 10px;
-                    }
-
-                    #mc_embed_signup .clear {
-                        display: inline-block;
                     }
 
                     /* positions button horizontally in line with input */
@@ -219,7 +239,6 @@
                         display: inline-block;
                         margin: 0;
                         transition: all 0.23s ease-in-out 0s;
-                        font-family: "HK Grotesk";
                     }
 
                     #mc_embed_signup .button:hover {
@@ -272,11 +291,6 @@
                             color: #000 !important;
                         }
 
-                        #mc_embed_signup .clear {
-                            display: block;
-                            width: 100%;
-                        }
-
                         #mc_embed_signup .button {
                             width: 100%;
                             margin: 0;
@@ -285,57 +299,53 @@
 
                     ::-webkit-input-placeholder {
                         /* Chrome */
-                        color: #b5c2c7;
+                        color: #696e75;
                         font-family: "HK Grotesk";
                     }
 
                     #mc_embed_signup {
                         clear: left;
-                        font: 14pt Work Sans, sans-serif;
+                        font: 14pt Work Sans, sans-serif !important;
                         font-weight: bold;
                         color: #374145;
                         width: 100%;
                     }
-
                 </style>
                 <div class="landing-signup fadeInUp wow" style="padding:0em 2em 1em 2em;">
-                    <h4 style="color:#374145; font-family:Poppins; margin:0;">
-                        Sign up to get updated on our initiatives
+                    <h4 style="color:#a2a8b2; font-family:Poppins; margin:0;font-size:14px;font-weight:900;">
+                        Join our mailing list for updates
                     </h4>
                     <div id="mc_embed_signup">
                         <form action="https://fb.us16.list-manage.com/subscribe/post?u=edf95f5730b59057cb969b4d5&amp;id=36793e2dc5" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
                             <div id="mc_embed_signup_scroll">
-                                <input class="email" id="mce-EMAIL" name="EMAIL" placeholder="email address" required="" type="email" value="" />
+                                <input class="email" id="mce-EMAIL" name="EMAIL" placeholder="Your email address" required="" type="email" value="" />
                                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                                 <div aria-hidden="true" style="position: absolute; left: -5000px;">
                                     <input name="b_edf95f5730b59057cb969b4d5_36793e2dc5" tabindex="-1" type="text" value="" />
                                 </div>
-                                <div class="clear">
-                                    <input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe " />
-                                </div>
+                                <input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe" />
                             </div>
                         </form>
                     </div>
                 </div>
-                <!--End mc_embed_signup-->
             </div>
         </div>
+        <!--End mc_embed_signup-->
 
         <div id="footer">
             <div class="innerfooter" style="background:none;">
                 <center>
                     <div class="linksfooter">
-                        <a href="https://developh.org">Home</a>
                         <a href="https://developh.org/about">About</a>
                         <a href="https://developh.org/projects">Projects</a>
+                        <a href="https://developh.org/ventures">Ventures</a>
                         <a href="https://developh.org/getinvolved">Get Involved</a>
                         <a href="mailto:wedeveloph@gmail.com">Contact</a>
                     </div>
                 </center>
                 <p style="background:none;">
-                    Developh is a global student-run nonprofit investing in student-led
-                    innovation to break the innovation gap through computer science
-                    education and innovation programs.
+                    <a href="http://developh.org">Developh</a> is a global nonprofit investing in student-led
+                    innovation through computer science education and accelerator initiatives to break the technology divide.
                 </p>
 
                 <div class="siteright">
@@ -354,13 +364,11 @@
             document.write(
                 '<script src="js/vendor/jquery-1.11.2.min.js"><\/script>'
             );
-
     </script>
     <script src="js/main.js"></script>
     <script src="js/wow.js"></script>
     <script>
         new WOW().init();
-
     </script>
     <script src="js/typed.js"></script>
 </body>
