@@ -43,7 +43,7 @@ a {
     color: #605F6E;
     font-family: "HK Grotesk";
     font-weight: 400;
-    font-size: 12pt !important;
+    font-size: 10pt !important;
     line-height: 19pt !important;
     letter-spacing: 0px;
     font-weight: 100;
@@ -60,13 +60,14 @@ a {
 .programbox h3 {
     font-family: "Poppins";
     font-weight: 600;
-    font-size: 20px;
-    margin: .2em 0 .5em 0;
+    font-size: 15px;
+    margin: .5em 0 .5em 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .landinggif {
     width: 110px;
-    border-radius: 100%;
     display: block;
 }
 
@@ -507,7 +508,7 @@ p a:hover {
 }
 
 #Programs a:hover {
-    box-shadow: 0 5px 20px #f7f8f9;
+    box-shadow: 0 5px 20px #d9dbdd;
     text-shadow: 0 0 20px #fff;
 }
 
