@@ -54,10 +54,20 @@
         }
 
         .vm {
-            font-family: "Lack";
-            text-shadow: 0 0 20px #a3b4d1;
+            font-family: "Work Sans";
+            line-height: 32px;
             padding: 2em;
-            ;
+            font-weight: 100;
+            width: 420px;
+            text-shadow: .3px 1px #17298c;
+        }
+
+        .vm strong {
+            display: block;
+            font-family: "Termina";
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            color: #c7ede8;
         }
 
         .aboutbox-person {
@@ -104,6 +114,62 @@
             max-width: 350px;
             min-width: 20px;
         }
+
+        h3 {
+            font-family: "Rubik";
+            margin: .5em;
+        }
+
+        .issuep {
+            width: 90%;
+        }
+
+        .impactbox {
+            display: inline-block;
+            width: 200px;
+            color: #000;
+            padding: .3em;
+            margin: .9em .3em 0 .3em;
+        }
+
+        .impactbox strong {
+            font-family: "Termina";
+            display: block;
+            font-size: 32px;
+            text-shadow: 0 0 20px #2056c1;
+            color: #a6cddb;
+        }
+
+        .impactbox u {
+            text-decoration: none;
+            font-weight: 100;
+            color: #eff5f7;
+        }
+
+        .pitchbox {
+            background: black;
+            padding: 2em;
+            max-width: 850px;
+            margin: 2em;
+            box-shadow: 0 15px 20px #1245a8;
+        }
+
+        .pitchbox h3 {
+            margin: 0;
+        }
+
+        .pitchbox h1 {
+            margin: .3em;
+            color: #fff;
+            font-family: "Termina";
+            font-size: 22px;
+        }
+
+        .pitchbox p {
+            font-size: 18px;
+            padding: 1em;
+            line-height: 32px;
+        }
     </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -144,15 +210,34 @@
             </div>
         </div>
         <div class="box" id="content">
-            <div class="boxinner" style="width:90%;padding:1em;max-width:900px;text-align:center;margin:auto;margin-top:-100px;">
+            <div class="boxinner" style="width:90%;padding:1em;max-width:1400px;text-align:center;margin:auto;margin-top:-100px;">
                 <center>
+
+                    <strong style="font-family:'Termina';text-transform: uppercase;font-size:14.5px;">We're making technology more inclusive for all.</strong>
                     <p class="issuep" style="color:#fff;">
-                        Developh is a global technology non-profit that seeks to nurture
-                        youth innovation through accessible computer science education,
-                        opportunity, and a united, student community. We believe in bringing the underrepresented youth forward in technology, refactoring the tech pipeline to lead to an industry with the representation of the people it builds for to forward inclusive, impact-oriented innovation. Serving students as early as in middle school, we empower, educate, and invest in students to pursue social impact ventures and career paths in technology.
-                        Our organization executes programs and initiatives across education, advocacy, and community through our accessible, online platform and across our network of chapters in high schools and universities. <br>Find us on our open-source education initiative, our venture portfolio open to student fellows, our board of resources and funding for students interested in startups and tech, or through our conventions, conferences, workshops, and more! Since our founding in 2016, we support over 550 members with a reach of over 60,000
-                        people in 10+ countries.
+                        Developh is a global technology non-profit that seeks to nurture youth innovation through accessible computer science education,
+                        opportunity, and community. We believe in bringing the underrepresented youth forward in technology, refactoring the tech pipeline to forward inclusive, impact-oriented innovation. Our ultimate goal is to break the innovation gap, living in a world where startups and innovation are mass-oriented and inclusive of the greater world.</p><br>
+
+                    <p class="issuep" style="color:#fff;">Serving students from middle school to college, we empower, educate, and invest in students to pursue social impact ventures and career paths in technology.
+                        Our organization executes programs and initiatives across education, advocacy, and community through our accessible, online platform and across our network of chapters in high schools and universities.
                     </p>
+
+                    <div class="impactbox">
+                        <strong>60,000</strong>
+                        <u>students impacted</u>
+                    </div>
+
+                    <div class="impactbox">
+                        <strong>550</strong>
+                        <u>members</u>
+                    </div>
+
+
+                    <div class="impactbox">
+                        <strong>15+</strong>
+                        <u>countries</u>
+                    </div>
+
                     <br /><br />
 
                     <p class="issuep" style="color:#fff;">
@@ -163,18 +248,26 @@
                         from all backgrounds and walks of life, and opportunities that
                         equip them to be students at day, and changemakers at night
                         through technology. The organization is unique in its entirely
-                        student-led nature, focus on making tangible impact and creating
-                        whole projects, and nurturing both technical and soft skills.
+                        student-led nature with a focus on making tangible, impact-oriented ventures while nurturing both technical and soft skills.
                     </p>
                     <br />
                     <center>
-                        <span class="vm"><strong>Mission</strong>: Bring students together to impact
+                        <div class="vm"><strong>Mission</strong> Bring students together to impact
                             classrooms, communities, industry, and more--give them a glimpse
                             of the tech world, cultivate their ideas, and ensure that this
-                            potential is made as accessible as possible.</span>
+                            potential is made as accessible as possible.</div>
                     </center>
 
-                    <img src="img/about/about-1.jpg" alt="Developh at EduTECH Philippines, featuring founder Chiara Amisola" />
+                    <div style="position:absolute;z-index:-4;margin-top:-4em;"><img src="img/about/about-1.jpg" alt="Developh at EduTECH Philippines, featuring founder Chiara Amisola" /></div>
+
+                    <div class="pitchbox" style="margin-top:290px;">
+                        <h3><i class="fa fa-keyboard-o"></i></h3>
+                        <h1>Basically...</h1>
+                        <p>We're a global nonprofit investing in student-led innovation in the developing world to break the technology gap&mdash;supporting students through education and accelerator initiatives to build tech for social good.
+                        </p>
+
+                    </div>
+
 
                     <h3>Our Story</h3>
                     <p class="issuep" style="color:#fff;">
@@ -196,9 +289,9 @@
                             learn to build for the world.</strong>
                     </p>
                     <br /><br />
-                    <span class="vm"><strong>Vision</strong>: The world molded by socially-impactful
+                    <div class="vm"><strong>Vision</strong> The world molded by socially-impactful
                         technology through the creative, innovative, and empathetic
-                        youth; in a realm of tech that mirrors the societies it creates for.</span>
+                        youth; in a realm of tech that mirrors the societies it creates for.</div>
                     <br />
                     <img src="img/about/about-3.jpg" alt="Developh at EduTECH Philippines, featuring founder Chiara Amisola" />
                 </center>
@@ -209,6 +302,7 @@
 
         <div class="box" id="content">
             <div class="boxinner" style="width:100%;padding:1em;max-width:900px;text-align:center;margin:auto;padding-bottom:5em;">
+                <h3><i class="fa fa-users"></i></h3>
                 <h1 style="color:#fff;">Meet the Team</h1>
                 <center>
                     <p class="issuep" style="color:#fff;">
@@ -467,22 +561,13 @@
                 </center>
             </div>
         </div>
+
         <div class="box" id="description-block">
             <div class="boxinner" style="width:90%;padding:1em;max-width:1000px;text-align:center;margin:auto;">
-                <h3>About Developh</h3>
-                <p>
-                    Since starting out as a school club in 2016 in Muntinlupa,
-                    Philippines made to introduce a tech community, share concepts, and
-                    build projects, our group of students and friends quickly realized
-                    that even in our position at a private high school with several
-                    resources, we weren't given the right education and resources to
-                    truly explore tech. Knowing that this disparity was even more
-                    evident in the schools around us and recognizing the importance of
-                    building things for the world, we sought to spread technology and
-                    innovation to Manila, the rest of the Philippines, then the world.
-                    We're students concerned about the growing innovation gap, believing
-                    student-led technology through education and community is key to a
-                    better world.
+                <h3 style="text-transform: uppercase;font-family:'Poppins';font-size:18px;letter-spacing:0.4px;color:#8e96a0;text-align: ">About Developh</h3>
+                <p style="text-align: justify;">
+                    We're at a unique point in time where groundbreaking
+                    things can be launched from a bedroom—it's time for us to harness that. We're a student-run nonprofit organization working to make technology more accessible in the hands of students across the developing world, nurturing student founders, developers, designers, and changemakers. Our initiatives span education and innovation: beginning from exposure and outreach to helping students launch tangible, impact-oriented ventures in their communities. Since our founding in 2016, we've impacted over 60,000 students in over fifteen countries.
                 </p>
                 <!-- Begin MailChimp Signup Form -->
                 <style type="text/css">
@@ -511,17 +596,14 @@
                         vertical-align: top;
                         background: 0;
                         text-align: center;
-                        color: #000 !important;
+                        color: #e8edf2 !important;
+                        text-transform: uppercase;
                     }
 
                     #mc_embed_signup label {
                         display: block;
                         font-size: 16px;
                         padding-bottom: 10px;
-                    }
-
-                    #mc_embed_signup .clear {
-                        display: inline-block;
                     }
 
                     /* positions button horizontally in line with input */
@@ -541,7 +623,6 @@
                         display: inline-block;
                         margin: 0;
                         transition: all 0.23s ease-in-out 0s;
-                        font-family: "HK Grotesk";
                     }
 
                     #mc_embed_signup .button:hover {
@@ -594,11 +675,6 @@
                             color: #000 !important;
                         }
 
-                        #mc_embed_signup .clear {
-                            display: block;
-                            width: 100%;
-                        }
-
                         #mc_embed_signup .button {
                             width: 100%;
                             margin: 0;
@@ -607,45 +683,43 @@
 
                     ::-webkit-input-placeholder {
                         /* Chrome */
-                        color: #b5c2c7;
+                        color: #696e75;
                         font-family: "HK Grotesk";
                     }
 
                     #mc_embed_signup {
                         clear: left;
-                        font: 14pt Work Sans, sans-serif;
+                        font: 14pt Work Sans, sans-serif !important;
                         font-weight: bold;
                         color: #374145;
                         width: 100%;
                     }
                 </style>
-                <div class="landing-signup fadeInUp wow" style="padding:0em 2em 1em 2em;">
-                    <h4 style="color:#374145; font-family:Poppins; margin:0;">
-                        Sign up to get updated on our initiatives
+                <div class="landing-signup fadeInUp wow" style="padding:0em 2em 1em 2em;"><br>
+                    <h4 style="color:#a2a8b2; font-family:Poppins; margin:0;font-size:14px;font-weight:900;">
+                        Join our mailing list for updates
                     </h4>
                     <div id="mc_embed_signup">
                         <form action="https://fb.us16.list-manage.com/subscribe/post?u=edf95f5730b59057cb969b4d5&amp;id=36793e2dc5" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
                             <div id="mc_embed_signup_scroll">
-                                <input class="email" id="mce-EMAIL" name="EMAIL" placeholder="email address" required="" type="email" value="" />
+                                <input class="email" id="mce-EMAIL" name="EMAIL" placeholder="Your email address" required="" type="email" value="" />
                                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                                 <div aria-hidden="true" style="position: absolute; left: -5000px;">
                                     <input name="b_edf95f5730b59057cb969b4d5_36793e2dc5" tabindex="-1" type="text" value="" />
                                 </div>
-                                <div class="clear">
-                                    <input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe " />
-                                </div>
+                                <input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe" />
                             </div>
                         </form>
                     </div>
                 </div>
-                <!--End mc_embed_signup-->
             </div>
         </div>
+        <!--End mc_embed_signup-->
+
         <div id="footer">
             <div class="innerfooter" style="background:none;">
                 <center>
                     <div class="linksfooter">
-                        <a href="https://developh.org">Home</a>
                         <a href="https://developh.org/about">About</a>
                         <a href="https://developh.org/projects">Projects</a>
                         <a href="https://developh.org/ventures">Ventures</a>
@@ -654,9 +728,8 @@
                     </div>
                 </center>
                 <p style="background:none;">
-                    Developh is a global student-run nonprofit investing in student-led
-                    innovation to break the innovation gap through computer science
-                    education and innovation programs.
+                    <a href="http://developh.org">Developh</a> is a global nonprofit investing in student-led
+                    innovation through computer science education and accelerator initiatives to break the technology divide.
                 </p>
 
                 <div class="siteright">

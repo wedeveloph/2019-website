@@ -53,7 +53,8 @@ a {
 .programbox {
     display: inline-block;
     width: 250px;
-    margin: 0 1em 0 1em;
+    margin: 0 1em 1em;
+    padding-bottom: .5em
 }
 
 
@@ -278,6 +279,10 @@ a {
 .content-link:hover {
     background: #7CBDC4;
     color: #1E31A8;
+}
+
+td {
+    padding: .5em 1em .5em 1em;
 }
 
 .teampreview-block {
@@ -533,6 +538,12 @@ p a:hover {
     width: 250px;
     font-family: 'rubik';
     font-weight: 800;
+}
+
+#programs .interestbutton:hover {
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 }
 
 
