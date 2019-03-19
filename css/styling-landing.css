@@ -534,3 +534,16 @@ p a:hover {
     font-family: 'rubik';
     font-weight: 800;
 }
+
+
+#roles p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+    text-align: left;
+}
+
+#roles h1 {
+    color: #fff;
+    padding-top: .5em;
+}
