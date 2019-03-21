@@ -10,18 +10,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-#footer {
-    background: #FFFFFF;
-    padding: 1.2em 0 1.5em 0;
-    bottom: 0;
-    min-height: 150px;
-    background: linear-gradient(124deg, #1824C7, #206D85, #37BFB8, #D252DE, #1B16A8, #0B287D);
-    background-size: 1800% 1800%;
-    -webkit-animation: rainbow 38s ease infinite;
-    -z-animation: rainbow 38s ease infinite;
-    -o-animation: rainbow 38s ease infinite;
-    animation: rainbow 38s ease infinite;
-}
 
 .linksfooter a {
     display: inline-block;
@@ -55,6 +43,19 @@ body {
     color: #fff;
     font-size: 16px;
     line-height: 28px;
+}
+
+#footer {
+    background: #FFFFFF;
+    padding: 1.2em 0 1.5em 0;
+    bottom: 0;
+    min-height: 150px;
+    background: linear-gradient(124deg, #1824C7, #206D85, #37BFB8, #D252DE, #1B16A8, #0B287D);
+    background-size: 1800% 1800%;
+    -webkit-animation: rainbow 38s ease infinite;
+    -z-animation: rainbow 38s ease infinite;
+    -o-animation: rainbow 38s ease infinite;
+    animation: rainbow 38s ease infinite;
 }
 
 @-webkit-keyframes rainbow {
