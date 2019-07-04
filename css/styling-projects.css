@@ -99,6 +99,38 @@ a {
 }
 
 
+.explanation-box {
+    display: inline-block;
+    width: 400px;
+    padding: 1em;
+    margin: 1em .3em .3 0 .3em;
+}
+
+.explanation-box h3 {
+    font-family: "Termina";
+    margin: 0;
+    color: #d1f7fa;
+    text-shadow: 0 0 30px;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.explanation-box h4 {
+    font-family: "Termina";
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 0 30px;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.explanation-box p {
+    margin: 0;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    text-shadow: 0 0 20px #1007f2;
+}
+
 .project-box {
     display: inline-block;
     width: 330px;
