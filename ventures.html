@@ -193,6 +193,15 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126635048-1"></script>
     <script>
+
+        function hover(element) {
+  element.setAttribute('src', 'img/devlogo-hover.png');
+}
+
+function unhover(element) {
+  element.setAttribute('src', 'img/devlogo.png');
+}
+        
         window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
@@ -200,6 +209,7 @@
       gtag("js", new Date());
 
       gtag("config", "UA-126635048-1");
+    
     </script>
 </head>
 
@@ -207,7 +217,7 @@
     <div class="container">
         <div id="landing-topnav">
             <div class="topnav-logo">
-                <a href="http://developh.org"><img alt="Developh Logo" src="img/devlogo.png" title="Developh" /></a>
+                <a href="http://developh.org"><img alt="Developh Logo" src="img/devlogo.png" title="Developh" onmouseover="hover(this);" onmouseout="unhover(this);" /></a>
             </div>
             <div class="topnav-right">
                 <a href="https://developh.org/about" alt="Meet the team and history">About</a>
