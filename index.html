@@ -264,6 +264,33 @@
                         font-weight: bold;
                         width: 100%;
                     }
+
+                    .bigbtn {
+                        display: inline-block;
+                        width: 200px;
+                        border-radius: 5px;
+                        text-decoration: none;
+                        color: #fff;
+                        font-family: "Poppins";
+                        font-weight: 800;
+                        box-shadow: 0 5px 20px #1717b2;
+                        height: 30px;
+                        line-height: 30px;
+                        margin: 1em;
+                        padding: .3em;
+                        background: #396afc;
+                        /* fallback for old browsers */
+                        background: -webkit-linear-gradient(to right, #2948ff, #396afc);
+                        /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(to right, #2948ff, #396afc);
+                        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                    }
+
+                    .bigbtn:hover {
+                        transform: translateY(-3px);
+                        text-shadow: 0 0 33px #fff;
+                        box-shadow: 0 5px 20px #0c3574 !important;
+                    }
                 </style>
                 <div class="landing-signup fadeInUp wow" style="padding:0em 2em 1em 2em;z-index:4 !important;">
 
@@ -311,7 +338,7 @@
         </div> -->
 
 
-        <div class="box" id="entrance" style="background:#1a2ab4;max-width:100%;padding-bottom:60px;">
+        <div class="box" id="entrance" style="background:#1a2ab4;max-width:100%;">
             <div class="box-inner" style="width:90%;padding:1em;margin:auto;position: relative;">
                 <div class="image-back" style="position:absolute;width:405px;margin:auto;left:5%;padding-top:-10px;opacity:0.4;">
                     <img src="img/landing-picture1.jpg" />
@@ -330,61 +357,66 @@
                             In the Philippines, only 13% of households have access to
                             a computer, minorities in technology face numerous barrierrs in technology, and a majority of educational institutions lack equitable computer science education. Technology is everywhere, but not built by the masses.
                             <br /><br />Developh is stepping in and shifting the technology pipeline across the Asia-Pacific.<br />We're connecting the youth to creation, and nurturing the student founder community. <a href="about">Develph</a> works on <strong>education and accelerator</strong> initiatives, building equitable opportunities to help more students explore pathways in technology. By bringing more youth into technology, we're shaping a technology ecosystem that is more representative of all.<br><br>
-                            In a world fueled by technology, every student deserves to be a part of coding the future.<br /><br /><strong style="font-family:'Termina';text-transform: uppercase;font-size:14.5px;">We're connecting the youth to creation</strong>&mdash;raising a generation of founders, developers, and creators in the best time for students to be founders: learning, failing, building, impacting.
+                            In a world fueled by technology, <strong style="font-family:'Termina';text-transform: uppercase;font-size:14.5px;">every student deserves to be a part of coding the future.</strong>
                         </p>
-
-                        <!--
-                        TODO: Add link to Facebook group and Discord
-                        <div class="cta-place">
-                        
-                        </div> -->
-
-
-                        <div class="landing-links">
-                            <div class="landing-link-container">
-                                <a href="about.html">
-                                    <h1>About</h1>
-                                    <p>
-                                        Learn about our history and meet our student team from
-                                        all around. <i class="fa fa-globe"></i>
-                                    </p>
-                                </a>
-                            </div>
-                            <div class="landing-link-container">
-                                <a href="projects/">
-                                    <h1>Projects</h1>
-                                    <p>
-                                        See our ongoing initiatives supporting our students and
-                                        chapters. <i class="fa fa-laptop"></i>
-                                    </p>
-                                </a>
-                            </div>
-                            <div class="landing-link-container">
-                                <a href="ventures.html">
-                                    <h1>Ventures</h1>
-                                    <p>
-                                        Explore Developh's innovation initiatives, accelerating for impact. &hearts;
-                                    </p>
-                                </a>
-                            </div>
-                            <div class="landing-link-container">
-                                <a href="getinvolved.html">
-                                    <h1>Get Involved</h1>
-                                    <p>
-                                        Be a part of our movement for equitable tech for everyone.
-                                        <i class="fa fa-mouse-pointer"></i>
-                                    </p>
-                                </a>
-                            </div>
-                        </div>
+                        <a class="bigbtn" href="http://facebook.com/groups/developh">Member Group</a>
+                        <a class="bigbtn" href="http://developh.org/deck">Developh Deck</a>
                     </center>
                 </div>
             </div>
         </div>
 
+        <div class="box" style="background:#1a2ab4;background-image:url(img/landing-core.jpg);padding-bottom:5em;padding-top:1em;background-size:cover;background-position:center;">
+            <div class="box-inner" style="max-width:800px;padding:1em;margin:auto;position: relative;">
+
+                <center>
+
+
+                    <div class="landing-links">
+                        <div class="landing-link-container">
+                            <a href="about.html">
+                                <h1>About</h1>
+                                <p>
+                                    Learn about our history and meet our student team from
+                                    all around. <i class="fa fa-globe"></i>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="landing-link-container">
+                            <a href="projects/">
+                                <h1>Projects</h1>
+                                <p>
+                                    See our ongoing initiatives supporting our students and
+                                    chapters. <i class="fa fa-laptop"></i>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="landing-link-container">
+                            <a href="ventures.html">
+                                <h1>Ventures</h1>
+                                <p>
+                                    Explore Developh's innovation initiatives, accelerating for impact. &hearts;
+                                </p>
+                            </a>
+                        </div>
+                        <div class="landing-link-container">
+                            <a href="getinvolved.html">
+                                <h1>Get Involved</h1>
+                                <p>
+                                    Be a part of our movement for equitable tech for everyone.
+                                    <i class="fa fa-mouse-pointer"></i>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
 
         <div class="box" id="programs" style="background:#f5f6f9;max-width:100%;">
             <div class="boxinner" style="width:90%;padding:1em;text-align:center;margin:auto;padding-bottom:5em;background-image:url(img/landing/grayelements.png);background-size:contain;background-position:center top;background-repeat:no-repeat;">
+
+
 
                 <div style="margin:0 auto;padding:2em;">
                     <h3 style="margin:0;font-size:14px;text-transform: uppercase;font-weight:00;color:#b8bec6;font-family:'Poppins';">Get Involved</h3>
@@ -439,38 +471,6 @@
 
 
 
-            <div class="box" id="roles" style="background-color:#2242a7;background-image:url(img/landing/bg-bottom.png);min-height:350px;background-size:contain;background-position:center;width:100%;">
-                <!-- TODO: Change image and fix this area, add ongoing projects (maybe move above principles?) -->
-
-                <div class="boxinner" style="width:80%;padding:2em;max-width:800px;text-align: center;margin:auto;">
-                    <h3 style="margin:0;font-size:14px;text-transform: uppercase;font-weight:00;color:#8ecce2;font-family:'Poppins';">Open Positions</h3>
-                    <img src="img/landing/oo-star.png" style="padding:1em;width:80px;" align="right">
-                    <h1>Work With Us</h1>
-                    <p>We're looking for youth who share our mission with a passion in making technology equitable and accessible to all. Our team consists of high school and college-age students working remotely together, with on-the-ground volunteers running chapters and outreach operations in their respective countries. We're all passionate about technology, education, and bridging these together to build exciting things that link to our advocacies.</p><br>
-                    <p><strong>Apply by June 22nd, 11:59PM.</strong> If you're interested in working with Developh and contributing your skills, send us an email (wedeveloph&hearts;gmail.com) saying hello! </p>
-
-                    <center>
-                        <h4 style="margin:1.3em 0 .3em 0;font-family:'Poppins';color:#fff;">Some positions we're looking for...</h4>
-                        <table style="font-size:14px;color:#fff;margin:0;">
-                            <tr>
-                                <td>Education Coordinator</td>
-                                <td>Social Media Manager</td>
-                            </tr>
-                            <tr>
-                                <td>Vice President for External Relations</td>
-                                <td>Vice President for Technology/Internals</td>
-                            </tr>
-                            <tr>
-                                <td>Chapter Expansion Director</td>
-                                <td>Regional Director</td>
-                            </tr>
-                        </table>
-                        <br>
-                        <a style="color:#8ecce2;font-weight:800;font-size:24px;font-family:'Poppins';" href="https://github.com/wedeveloph/jobs">Apply on Github</a>
-
-                    </center>
-                </div>
-            </div>
 
             <div class="box" id="description-block">
                 <div class="boxinner" style="width:90%;padding:1em;max-width:1000px;text-align:center;margin:auto;">

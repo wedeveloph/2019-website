@@ -1,0 +1,10 @@
+
+Redirect 302 /jobs http://github.com/wedeveloph/jobs
+Redirect 302 /jobs.html http://github.com/wedeveloph/jobs
+Redirect 302 /join http://github.com/wedeveloph/jobs
+Redirect 302 /join.html http://github.com/wedeveloph/jobs
+Redirect 302 /deck https://developh.org/deck.pdf
+Redirect 302 /deckinnovation https://developh.org/deckInnovation.pdf
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]

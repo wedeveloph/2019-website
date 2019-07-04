@@ -481,6 +481,11 @@ p a:hover {
     text-shadow: 0;
     margin: 0 .3em 0 .3em;
     color: #fff;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
 }
 
 .landing-link-container a {
@@ -491,26 +496,21 @@ p a:hover {
     padding-top: 1em;
     font-size: 22px;
     text-align: left;
-    color: #a8e0db;
+    color: #d7f2f0;
     font-family: "Termina" !important;
-    font-weight: 500;
-    text-decoration: underline;
+    font-weight: 800;
+    text-shadow: 0 0 20px #5ddddd;
 }
 
 .landing-link-container p {
-    font-size: 16.5px;
+    font-size: 16px;
     color: #f2f7f6;
-    line-height: 20px;
+    line-height: 22px;
     margin: .3em 0 .4em 0;
 }
 
-.landing-link-container a:hover h1 {
-    color: #d8fff7;
-}
-
-.landing-link-container a:hover p {
-    text-shadow: 2px 1px blue;
-    color: #c4f2e8;
+.landing-link-container:hover {
+    text-shadow: 0 0 30px #2311ac;
 }
 
 #programs p a {
