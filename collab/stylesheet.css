@@ -1,6 +1,6 @@
 /* Text styling */
 
-h3 {
+#content-block h3 {
     background: -webkit-linear-gradient(#e66ec8, #7571e6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -64,6 +64,78 @@ h3 {
     width: 100%;
     max-width: 500px;
 }
+
+.pitchday-announce {
+    text-align: center !important;
+    font-family: 'Recoleta' !important;
+}
+
+.pitchday-announce strong {
+    font-size: 24px !important;
+    line-height: 32px !important;
+    text-shadow: 0 0 20px #1d257d;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+
+
+#pitchday .bigbigbtn {
+    display: inline-block;
+    width: 290px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Work Sans";
+    box-shadow: 0 5px 20px #1a1a1c;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px !important;
+    margin: 1em;
+    padding: .3em;
+    background: #396afc;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #645faa, #f2c6d6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #645faa, #f2c6d6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: all 0.23s ease-in-out 0s;
+}
+
+#pitchday .bigbigbtn:hover {
+    transform: translateY(-3px);
+    text-shadow: 0 0 53px #fff;
+    box-shadow: 0 5px 20px #273d60 !important;
+}
+
+#pitchday .pitchday-advocacypartner {
+    width: 200px;
+    padding: 1em;
+}
+
+#pitchday .pitchday-advocacypartner h1 {
+    font-size: 14px;
+    font-family: "Rubik";
+    color: #fff;
+}
+
+
+#pitchday .pitchday-advocacypartner img {
+    border-radius: 100%;
+}
+
+
+#pitchday .pitchday-advocacysector {
+    margin: .5em;
+    padding: .2em;
+    border-radius: 15px;
+    font-size: 16px;
+    color: #000 !important;
+    font-family: "Rubik";
+    background: #000;
+}
+
+
 
 
 

@@ -79,7 +79,8 @@
             </div>
         </div>
 
-        <div class="box project-content" id="content-block" style="width:100%;min-height:500px;background-image:url(../img/collab/pic-friendos.jpg);background-size:cover;background-repeat:no-repeat;background-position: ">
+        <div class="box beneath" style="position:absolute;top:700px;left:0;width:100%;background-image:url(../img/collab/pic-friendos.jpg);background-size:cover;background-position: center; background-repeat:no-repeat;min-height:800px;z-index:-9;overflow:hidden;"></div>
+        <div class="box project-content" id="content-block" style="width:100%;">
             <div class="boxinner" style="box-sizing: border-box;margin:3em; width:90%;padding:1em;max-width:700px;text-align:center;margin:auto;padding-bottom:5em;">
                 <h1 style="color:#edeef2;font-size:42px;font-family:'Recoleta';letter-spacing:1px;margin-bottom:.5em;font-weight:800;"><strong style="color:#ef68e9;">Collab</strong> for Good</h1>
 
@@ -92,13 +93,18 @@
 
 
         <div id="pitchday" class="box project-content" style="width:100%;min-height:500px;background-image:url(../img/collab/shapey-2.png);background-size:contain;background-repeat: repeat-y;">
-            <div class="boxinner" style="box-sizing: border-box;margin:3em; width:90%;padding:1em;max-width:700px;text-align:center;margin:auto;padding-bottom:5em;">
+            <div class="boxinner" style="box-sizing: border-box;margin:3em; width:90%;padding:1em;max-width:740px;text-align:center;margin:auto;padding-bottom:5em;">
 
                 <center class="wow fadeIn"><img style="max-width:450px;width:90%;" src="../img/collab/collab-pitchday.png">
 
-                    <h2 style="font-family:'Recoleta';text-transform: none;letter-spacing:1px;">Pitch Day is on August 3!</h2>
-                </center>
-                <p class="wow fadeInDown">On Collab’s Pitch Day, our partner advocacy organizations will share their stories and current or proposed initiatives. These projects are all looking for volunteers and other changemakers to support their growth.<br><br>After Pitch Day, youth can view refined project proposals and sign up to be a part of their development team. Through our innovation program, these social good teams will be given the technical guidance, resources, extensive capital, and more to make their initiatives happen.</p>
+                    <p class="pitchday-announce"><strong>Collab is kicking off with Pitch Day: advocacy groups take spotlight as they share their challenges, cause, and initiatives in a one-day event of community dialogues, capacity-building, and ideation.</strong><br><u style="text-decoration:none;font-size:14px;line-height:14px !important;">We're inviting advocates, students, developers, industry leaders, and creators to develop with us in a diverse space at the intersection of activism, entrepreneurship, technology, and design.</u></p>
+
+                    <!--Eventbrite-->
+                    <center><a style="pointer-events:none;" class="bigbigbtn" href="https://developh.org/collab/primer">Registration Opening Soon</a><br>
+                        <span style="font-size:11px;margin:0;color:#e2baba;">Pre-registration pairs you with causes you're interested in; registration is on a sliding-scale basis</span>
+                    </center>
+                </center><br>
+                <p class="wow fadeInDown"><strong> You won’t just learn about technology or entrepreneurship; you’ll make an impact. Collab celebrates technology for advocacy, before anything else.</strong> On Collab’s Pitch Day, our partner advocacy organizations will share their stories and current or proposed initiatives. These projects are all looking for volunteers and other changemakers to support their growth.<br><br>After Pitch Day, youth can view refined project proposals and sign up to be a part of their development team. Through our innovation program, these social good teams will be given the technical guidance, resources, extensive capital, and more to make their initiatives happen.</p>
 
                 <a class="bigbtn" href="https://developh.org/collab/primer">Pitch Day Primer</a>
 
@@ -145,6 +151,16 @@
                             </tr>
                         </table>
                     </div>
+
+
+                    <h2 style="font-family:'recoleta';font-size:26px;">Participating Organizations</h2>
+                    <div class="pitchday-advocacypartner">
+                        <img src="partner/icon.png">
+                        <!--<h3 class="pitchday-advocacysector" style="background:#82d896">Earth</h3>-->
+                        <h1>To be announced</h1>
+                        <p>...</p>
+                    </div>
+
                 </center>
 
 
@@ -313,6 +329,7 @@
                         color: #374145;
                         width: 100%;
                     }
+
                 </style>
                 <div class="landing-signup fadeInUp wow" style="padding:0em 2em 1em 2em;"><br>
                     <h4 style="color:#a2a8b2; font-family:Poppins; margin:0;font-size:14px;font-weight:900;">
@@ -368,11 +385,13 @@
             document.write(
                 '<script src="js/vendor/jquery-1.11.2.min.js"><\/script>'
             );
+
     </script>
     <script src="js/main.js"></script>
     <script src="../js/wow.js"></script>
     <script>
         new WOW().init();
+
     </script>
     <script src="js/typed.js"></script>
 </body>
