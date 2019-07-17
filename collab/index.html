@@ -27,10 +27,14 @@
     <meta content="width=device-width, initial-scale=.7" name="viewport" />
     <link href="../css/normalize.min.css" rel="stylesheet" />
     <link href="../css/main.css" rel="stylesheet" />
+
+    <!--Local stylesheet for Recoleta and in-page -->
+    <link href="stylesheet.css" rel="stylesheet" />
+
     <link href="../css/animate.css" rel="stylesheet" />
     <link href="../css/styling.css" rel="stylesheet" />
     <link href="../css/styling-projects.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Work+Sans:300,400,700|Poppins:500,700,800" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Work+Sans:300,400,700" rel="stylesheet" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
@@ -45,9 +49,11 @@
 
       gtag("config", "UA-126635048-1");
     </script>
+
+
 </head>
 
-<body style="background:#c06ca2;">
+<body style="background:#060744;">
     <div class="container">
         <div id="landing-topnav">
             <div class="topnav-logo">
@@ -62,10 +68,10 @@
         </div>
         <div class="box" id="top" style="background-image:url(../img/collab/collabcover.png);background-position: center top; min-height:100%;background-size:cover;display:flex;align-items:center;">
             <div class="boxinner" style="width:80%;max-width:600px;margin:auto;padding-top:30px;text-align:center;color:#fff;">
-                <h1 style="font-size:36pt;margin-bottom:.5pt;margin-top:1.5pt;">
+                <h1 class="wow fadeInUp" style="font-size:36pt;margin-bottom:.5pt;margin-top:1.5pt;">
                     <img src="../img/collab/collab-title.png" alt="Collab" title="Developh Collab">
                 </h1>
-                <p style="color:#fff;font-weight:800;letter-spacing:.5px;">
+                <p class="wow fadeIn" style="color:#fff;font-weight:800;letter-spacing:.5px;">
                     Developh Collab is an accelerator program that works on impactful collaborations for social good. We put purpose first, and build tech-enabled projects with young people driven by mission to make a change.
                 </p>
             </div>
@@ -73,7 +79,18 @@
 
         <div class="box project-content" id="content-block" style="width:100%;min-height:500px;">
             <div class="boxinner" style="width:90%;padding:1em;max-width:900px;text-align:center;margin:auto;padding-bottom:5em;">
-                <h1 style="color:#edeef2;font-size:30px;font-family:'Termina';text-shadow:0 0 20px #a2cbef;margin-bottom:.5em;font-weight:800;">Our Initiatives</h1>
+                <h1 style="color:#edeef2;font-size:42px;font-family:'Recoleta';letter-spacing:1px;margin-bottom:.5em;font-weight:800;">Our Initiatives</h1>
+
+                <h2>On Collab</h2>
+                <p>Collab is a Developh initiative that works on impactful collaborations with mission-based groups to build tech-enabled solutions. Undergoing our accelerator program, advocates and developers alike work together to ideate, build, and launch meaningful projects for mission, first. We believe that by enabling young founders with technology and helping them sustainably scale their projects &mdash; we can get more people working on the real challenges and problems we face today.</p>
+
+                <a class="bigbtn" href="https://developh.org/collab/primer">Pitch Day Primer</a>
+
+                <a class="bigbtn" href="https://develo.ph/collabadvocacypartner">Apply as an Advocacy Partner</a>
+
+                <h3>Why Collab?</h3>
+                <p>Developh aims to build the most student-friendly accelerator. To accomplish this, we’re investing in our youth who are not only changing the future, but are making a difference today. After 3 years of experimenting with our model, we’ve found that the most successful projects come from people with passion and a cause. We’re connecting creation and making tech - something so pervasive but untapped - more equitable. By giving activists, changemakers, and students a platform to build and impact; we’re traversing social issues, empowering and upskilling the youth, and reshaping what technology means.</p>
+
 
 
                 <div class="explanation-box">
@@ -441,7 +458,7 @@
             );
     </script>
     <script src="js/main.js"></script>
-    <script src="js/wow.js"></script>
+    <script src="../js/wow.js"></script>
     <script>
         new WOW().init();
     </script>

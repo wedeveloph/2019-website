@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Recoleta';
+    src: url('Recoleta-Regular.eot');
+    src: url('Recoleta-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Recoleta-Regular.woff2') format('woff2'),
+        url('Recoleta-Regular.woff') format('woff'),
+        url('Recoleta-Regular.ttf') format('truetype'),
+        url('Recoleta-Regular.svg#Recoleta-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('Recoleta-Medium.eot');
+    src: url('Recoleta-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Recoleta-Medium.woff2') format('woff2'),
+        url('Recoleta-Medium.woff') format('woff'),
+        url('Recoleta-Medium.ttf') format('truetype'),
+        url('Recoleta-Medium.svg#Recoleta-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('Recoleta-Black.eot');
+    src: url('Recoleta-Black.eot?#iefix') format('embedded-opentype'),
+        url('Recoleta-Black.woff2') format('woff2'),
+        url('Recoleta-Black.woff') format('woff'),
+        url('Recoleta-Black.ttf') format('truetype'),
+        url('Recoleta-Black.svg#Recoleta-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
