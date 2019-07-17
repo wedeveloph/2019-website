@@ -1,3 +1,132 @@
+/* Text styling */
+
+h3 {
+    background: -webkit-linear-gradient(#e66ec8, #7571e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    font-family: "Work Sans";
+}
+
+.project-content p {
+    font-family: "HK Grotesk";
+    font-family: 15px !important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.bigbtn {
+    display: inline-block;
+    width: 210px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Work Sans";
+    box-shadow: 0 5px 20px #1a1a1c;
+    height: 30px;
+    line-height: 30px;
+    margin: 1em;
+    padding: .3em;
+    background: #396afc;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #55bbb4, #9cbc64);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #55bbb4, #9cbc64);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: all 0.23s ease-in-out 0s;
+}
+
+.bigbtn:hover {
+    transform: translateY(-3px);
+    text-shadow: 0 0 53px #fff;
+    box-shadow: 0 5px 20px #273d60 !important;
+}
+
+/* Pitch Day */
+
+
+#pitchday h2 {
+    background: -webkit-linear-gradient(#e66ec8, #7571e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#pitchday p {
+    color: #e3eff2;
+    text-align: left;
+    line-height: 27px;
+}
+
+.pitchday-schedule table {
+    align-content: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+
+
+.tg td {
+    font-family: Rubik, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+
+
+.tg .tg-1wig {
+    font-weight: bold;
+    text-align: left;
+    vertical-align: top;
+    color: #86d4d1;
+    max-width: 140px;
+}
+
+.tg .tg-fymr {
+    font-weight: bold;
+    border-color: inherit;
+    text-align: left;
+    vertical-align: top
+}
+
+.tg .tg-0lax {
+    text-align: left;
+    vertical-align: top;
+    color: #fff;
+    font-family: "HK Grotesk";
+}
+
+/* Special Divs */
+
+.whycollab {
+    display: inline-block;
+    width: 280px;
+    margin: 1em;
+    padding: .5em;
+}
+
+.whycollab h3 {
+    font-family: 'Recoleta';
+    font-weight: 500;
+}
+
+.whycollab p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px !important;
+    line-height: 22px !important;
+}
+
+.whycollab p strong {
+    font-family: 'rubik';
+}
+
+
+/* Fonts */
+
 @font-face {
     font-family: 'Recoleta';
     src: url('fonts/Recoleta-Regular.eot');
