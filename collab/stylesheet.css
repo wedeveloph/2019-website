@@ -64,9 +64,9 @@
 .pitchday-schedcontainer {
     margin-bottom: 1em;
     width: 100%;
-    background: red;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .pitchday-schedule {
@@ -92,19 +92,19 @@
 }
 
 .pitchday-organizers-box h3 {
-    font-family: "Work Sans";
+    font-family: "Rubik";
     padding-top: .5em;
     margin: .3em;
-    font-size: 14px !important;
+    font-size: 16px !important;
     color: #fff !important;
 }
 
 .pitchday-organizers-box p {
     margin: 0;
     text-align: center !important;
-    font-weight: 100;
+    font-weight: 700;
     font-family: "HK Grotesk";
-    font-size: 13px !important;
+    font-size: 14px !important;
     line-height: 18px !important;
 }
 
@@ -176,12 +176,20 @@
 #pitchday .pitchday-advocacypartner h1 {
     font-size: 14px;
     font-family: "Rubik";
-    color: #fff;
+    color: #0a0b3c;
+}
+
+
+#pitchday .pitchday-advocacypartner p {
+    margin: 0;
+    text-align: center;
+    color: #0a0b3c;
 }
 
 
 #pitchday .pitchday-advocacypartner img {
     border-radius: 100%;
+    width: 100px;
 }
 
 
@@ -199,7 +207,7 @@
     display: inline-block;
     width: 100%;
     height: 100px;
-    background: #000;
+    background: #0a0b3c;
     text-align: center;
     z-index: 99;
     color: #fff;
@@ -209,7 +217,9 @@
 }
 
 .box-heading h1 {
+    font-size: 38px;
     font-family: "Work Sans";
+    line-height: 100px;
     font-weight: 800;
 }
 
@@ -314,4 +324,66 @@
         url('fonts/Recoleta-Black.svg#Recoleta-Black') format('svg');
     font-weight: 900;
     font-style: normal;
+}
+
+
+
+/* NYAI */
+
+.pewpew {
+    position: absolute;
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    background: transparent url(../img/landing/pewpew.png) repeat top center;
+    -moz-animation: move-twink-back 250s linear infinite;
+    -ms-animation: move-twink-back 250s linear infinite;
+    -o-animation: move-twink-back 250s linear infinite;
+    -webkit-animation: move-twink-back 250s linear infinite;
+    animation: move-twink-back 250s linear infinite;
+}
+
+/* I like twink cos it reminds me of a twink (me)) */
+
+@keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 1000px -5000px;
+    }
+}
+
+@-webkit-keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 1000px -5000px;
+    }
+}
+
+@-moz-keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 1000px -5000px;
+    }
+}
+
+@-ms-keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 1000px -5000px;
+    }
 }

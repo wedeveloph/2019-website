@@ -28,7 +28,7 @@
     <link href="../css/normalize.min.css" rel="stylesheet" />
     <link href="../css/main.css" rel="stylesheet" />
 
-    <!--Local stylesheet for Recoleta and in-page -->
+    <!--Local stylesheet for Recoleta and ivvn-page -->
     <link href="stylesheet.css" rel="stylesheet" />
 
     <link href="../css/animate.css" rel="stylesheet" />
@@ -67,6 +67,7 @@
             </div>
         </div>
 
+        <div class="pewpew"></div>
         <div class="box" id="top" style="background-image:url(../img/collab/collabcover.png);background-position: center top; min-height:100%;background-size:cover;display:flex;align-items:center;">
             <div class="boxinner" style="width:80%;max-width:600px;margin:auto;padding-top:30px;text-align:center;color:#fff;">
                 <h1 class="wow fadeInUp" style="font-size:36pt;margin-bottom:.5pt;margin-top:1.5pt;">
@@ -83,8 +84,8 @@
 
 
 
-        <div class="box project-content" id="content-block" style="width:100%;max-height:440px;">
-            <div class="boxinner" style="box-sizing: border-box;width:90%;padding:1em;max-width:700px;text-align:center;margin:auto;padding-bottom:5em;">
+        <div class="box project-content" id="content-block" style="width:100%;">
+            <div class="boxinner" style="box-sizing: border-box;width:90%;padding:1em;max-width:700px;text-align:center;margin:auto;">
                 <h1 style="color:#edeef2;font-size:42px;font-family:'Recoleta';letter-spacing:1px;margin-bottom:.5em;font-weight:800;"><strong style="color:#ef68e9;">Collab</strong> for Good</h1>
 
                 <p>Collab is a Developh initiative that works on impactful collaborations with mission-based groups to build tech-enabled solutions. With our accelerator program, advocates and developers alike work together to ideate, build, and launch meaningful projects for mission, first. We believe that by enabling young founders with technology and helping them sustainably scale their projects &mdash; we can get more people working on the real challenges and problems we face today.</p>
@@ -93,22 +94,21 @@
         </div>
 
 
-        <div id="pitchday" class="box project-content" style="width:100%;background-image:url(../img/collab/shapey-2.png);background-size:contain;background-repeat: repeat-y;display:flex;align-items:center;">
-            <div class="boxinner" style="box-sizing: border-box; width:100%;padding:1em;text-align:center;margin:auto;padding-bottom:5em;">
+        <div id="pitchday" class="box project-content" style="width:100%;background-image:url(../img/collab/shapey-2.png);background-size:contain;background-repeat: repeat-y;display:flex;align-items:center;flex-wrap:wrap;margin-top:-3em;">
+            <div class="boxinner" style="box-sizing: border-box; width:90%;padding:1em;text-align:center;margin:auto;">
 
                 <div class="wow fadeIn" style="max-width:700px;margin:auto;"><img style="max-width:450px;width:90%;" src="../img/collab/collab-pitchday.png">
 
                     <p class="pitchday-announce" style="padding:1em;"><strong>Collab is kicking off with Pitch Day: advocacy groups take spotlight as they share their challenges, cause, and initiatives in a one-day event of community dialogues, capacity-building, and ideation.</strong></p><u style="color:#ecf6f7;text-decoration:none;font-size:16px;line-height:22px !important;font-family:'Recoleta';">We're inviting advocates, students, developers, industry leaders, and creators to develop with us in a diverse space at the intersection of activism, entrepreneurship, technology, and design.</u><br><br>
 
                     <!--Eventbrite-->
-                    <center><a style="pointer-events:none;" class="bigbigbtn" href="https://developh.org/collab/primer">Registration Opening Soon</a><br>
+                    <center><a style="pointer-events:none;" class="bigbigbtn wow slideInUp" href="https://developh.org/collab/primer">Registration Opening Soon</a><br>
                         <span style="font-size:11px;margin:0;color:#e2baba;">Pre-registration pairs you with causes you're interested in; registration is on a sliding-scale basis</span>
                     </center>
                 </div><br>
 
                 <div style="margin:auto; max-width:1000px;">
-                    <p class="wow fadeInDown" style="padding:2em;"><strong> You won’t just learn about technology or entrepreneurship; you’ll make an impact. Collab celebrates technology for advocacy, before anything else.</strong> On Collab’s Pitch Day, our partner advocacy organizations will share their stories and current or proposed initiatives. These projects are all looking for volunteers and other changemakers to support their growth.<br><br>After Pitch Day, youth can view refined project proposals and sign up to be a part of their development team. Through our innovation program, these social good teams will be given the technical guidance, resources, extensive capital, and more to make their initiatives happen.</p>
-
+                    <p class="wow fadeInDown" style="padding:2em 2em 0 2em;"><strong> You won’t just learn about technology or entrepreneurship; you’ll make an impact. Collab celebrates technology for advocacy, before anything else.</strong> On Collab’s Pitch Day, our partner advocacy organizations will share their stories and current or proposed initiatives. These projects are all looking for volunteers and other changemakers to support their growth.<br><br>After Pitch Day, youth can view refined project proposals and sign up to be a part of their development team. Through our innovation program, these social good teams will be given the technical guidance, resources, extensive capital, and more to make their initiatives happen.</p>
                     <a class="bigbtn" href="https://developh.org/collab/primer">Pitch Day Primer</a>
 
                     <a class="bigbtn" href="https://develo.ph/collabadvocacypartner">Apply for your Cause</a>
@@ -163,7 +163,7 @@
                         <h2 style="font-family:'recoleta';font-size:26px;">Organizers</h2>
 
                         <div class="pitchday-organizers-box" style="width:100%;">
-                            <h3>Developh</h3>
+                            <img alt="Developh Logo" src="../img/devlogo.png" title="Developh" style="width:250px;" />
                             <p>Developh is an international nonprofit investing in youth-led innovation for social good. Through education and accelerator programs, we aim to shift the technology pipeline, building a diverse student founder community across the developing world.</p>
                             <a href="mailto:ventures@developh.org">ventures&#64;developh.org</a>
                         </div>
@@ -199,7 +199,8 @@
         <div class="box box-heading" style="background:#4c3991;">
             <h1>Participating</h1>
         </div>
-        <div id="pitchday" class="box project-content pitchday-partners" style="width:100%;background: rgb(187,119,165);background-image:url(../img/collab/bg-cloud.png),linear-gradient(122deg, rgba(187,119,165,1) 0%, rgba(244,172,221,1) 100%);background-size:contain;background-repeat: no-repeat;display:flex;padding-bottom:3em;margin:0;">
+        <div id="pitchday" class="box project-content pitchday-partners" style="width:100%;background: #cb5ea0; background-image:url(../img/collab/bg-cloud.png),linear-gradient(13deg, rgba(203,94,160,1) 0%, rgba(244,172,221,1) 100%);background-size:cover;background-repeat: no-repeat;display:flex;padding-bottom:3em;margin:0;">
+            <div class="pewpew"></div>
 
             <br><br>
             <div class="boxinner" style="box-sizing: border-box; width:100%;padding:1em;max-width:1000px;text-align:center;margin:auto;">
@@ -211,7 +212,6 @@
                         <img src="partner/icon.png">
                         <!--<h3 class="pitchday-advocacysector" style="background:#82d896">Earth</h3>-->
                         <h1>To be announced</h1>
-                        <p>...</p>
                     </div>
                 </center>
 
@@ -222,7 +222,6 @@
                         <img src="partner/icon.png">
                         <!--<h3 class="pitchday-advocacysector" style="background:#82d896">Earth</h3>-->
                         <h1>To be announced</h1>
-                        <p>...</p>
                     </div>
                 </center>
 
