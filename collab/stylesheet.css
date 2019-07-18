@@ -10,7 +10,9 @@
 
 .project-content p {
     font-family: "HK Grotesk";
-    font-family: 15px !important;
+    font-size: 18px !important;
+    font-weight: 600;
+    line-height: 30px !important;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -61,8 +63,17 @@
 
 .pitchday-schedule table {
     align-content: center;
-    width: 100%;
+    width: 70%;
     max-width: 500px;
+}
+
+.pitchday-organizers {
+    width: 20%;
+    min-width: 200px;
+}
+
+pitchday-organizers-box h2 {
+    font-family: 16px;
 }
 
 .pitchday-announce {
@@ -71,7 +82,7 @@
 }
 
 .pitchday-announce strong {
-    font-size: 24px !important;
+    font-size: 27px !important;
     line-height: 32px !important;
     text-shadow: 0 0 20px #1d257d;
     text-decoration: none;
