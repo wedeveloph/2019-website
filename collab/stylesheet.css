@@ -310,6 +310,37 @@
     font-family: 'rubik';
 }
 
+.project-faq {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-box {
+    display: inline-block;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.faq-box h3 {
+    color: #fff;
+    font-family: "Rubik";
+    margin: 0;
+    text-align: left;
+}
+
+.faq-box p {
+    color: #d7eeef;
+    font-family: "HK Grotesk";
+    font-weight: 500;
+    text-align: left;
+    font-size: 16px !important;
+    line-height: 28px !important;
+    margin: 0;
+}
+
 
 /* Fonts */
 
