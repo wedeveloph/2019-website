@@ -60,6 +60,26 @@
 
 /* Pitch Day */
 
+#announcementbar {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0px;
+    height: 40px;
+    overflow: hidden;
+    padding: .3em;
+    box-sizing: border-box;
+    text-align: center;
+    background: #396afc;
+}
+
+#announcementbar a {
+    padding: 1em;
+    text-decoration: none;
+    line-height: 30px;
+}
+
 .pitchday-eventbrite {
     position: relative;
 }
