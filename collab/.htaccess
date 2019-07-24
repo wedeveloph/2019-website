@@ -1,3 +1,8 @@
+
+Redirect 302 primer https://developh.org/collab/pitchday.pdf
+Redirect 302 primer https://developh.org/collab/pitchday.pdf
+Redirect 301 /primer /pitchday.pdf
+
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
