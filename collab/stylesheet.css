@@ -218,6 +218,28 @@
     transition: all 0.23s ease-in-out 0.05s;
 }
 
+
+.project-sponsors img {
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.project-sponsors img:hover {
+
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.project-sponsors .partnerbilling-top img {
+    width: 350px;
+}
+
+.project-sponsors .partnerbilling-2nd img {
+    width: 280px;
+}
+
+
 #pitchday .bigbigbtn:hover {
     transform: translateY(-3px);
     text-shadow: 0 0 53px #fff;
