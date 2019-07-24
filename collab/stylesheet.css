@@ -226,11 +226,14 @@
 
 #pitchday .pitchday-advocacypartner {
     width: 200px;
+    display: inline-block;
     padding: 1em;
 }
 
 #pitchday .pitchday-advocacypartner h1 {
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: 800;
+    text-shadow: 0 2px 0 #edade8;
     font-family: "Rubik";
     color: #0a0b3c;
 }
