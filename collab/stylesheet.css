@@ -239,6 +239,14 @@
     width: 280px;
 }
 
+.project-sponsors .partnerbilling-3rd img {
+    width: 240px;
+}
+
+.project-sponsors .partnerbilling-4th img {
+    width: 240px;
+}
+
 
 #pitchday .bigbigbtn:hover {
     transform: translateY(-3px);
