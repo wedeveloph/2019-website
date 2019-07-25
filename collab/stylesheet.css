@@ -232,7 +232,7 @@
 }
 
 .project-sponsors .partnerbilling-top img {
-    width: 350px;
+    max-height: 150px;
 }
 
 .project-sponsors .partnerbilling-2nd img {
