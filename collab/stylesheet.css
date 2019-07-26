@@ -243,8 +243,7 @@
     width: 240px;
 }
 
-.project-sponsors .partnerbilling-4th img {
-    width: 240px;
+.project-sponsors .partnerbilling-4th img {max-height: 80px;
 }
 
 
