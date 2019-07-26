@@ -222,13 +222,16 @@
 .project-sponsors img {
     padding: 1em;
     box-sizing: border-box;
-}
-
-.project-sponsors img:hover {
-
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+}
+
+.project-sponsors img:hover {
+    transform: scale(1.5, 1.5);
+    -webkit-filter: grayscale(0%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
 }
 
 .project-sponsors .partnerbilling-top img {
@@ -243,7 +246,8 @@
     width: 240px;
 }
 
-.project-sponsors .partnerbilling-4th img {max-height: 80px;
+.project-sponsors .partnerbilling-4th img {
+    max-height: 80px;
 }
 
 

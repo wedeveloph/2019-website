@@ -104,7 +104,7 @@
         <div class="box-style-bottom" style="width:100%;height:79px;position:absolute;bottom:-30px;background-image:url(img/index-bottom.png);background-repeat:no-repeat;left:0;bottom:0;z-index:3;"></div>
 
 
-        <div class="box" id="landing" style="background:#001795;background-image:url(img/index-2019pride.jpg);background-size:cover;background-position:center;background-repeat:no-repeat;min-height:100% !important;z-index:999;width:100%;">
+        <div class="box" id="landing" style="background:#001795;background-image:url(img/index-2019clear.jpg);background-size:cover;background-position:center;background-repeat:no-repeat;min-height:100% !important;z-index:999;width:100%;">
             <div class="boxinner" style="margin:auto;text-align:center;padding-top:160px;z-index:4;">
                 <span class="studentsare"><em>Every student is a</em><br /></span>
                 <h2>
@@ -121,12 +121,12 @@
                 <p style="font-size:23px;line-height:34px;">
                     Developh invests in youth-led innovation for social impact across the developing world.<br><strong style="font-size:13px;line-height:2px !important;font-family:'Termina';">Let's develop the Philippines with technology for all.</strong><br>
                     <a href="#entrance" style="color:#A3E8DE;"><i class="fa fa-angle-down"></i></a>
-
-
-                    <h4 style="color:#fff; font-family:Poppins; margin:0;">
-                        <a class="bigbtn" href="collab/" title="Collab with Developh" style="width:400px;background:none;box-shadow:none;">Collab with us at the intersection of technology and advocacy</a>
-                    </h4>
                 </p>
+
+
+                <h4 style="color:#fff; font-family:Poppins; margin:0;">
+                    <a class="bigbtn" href="collab/" title="Collab with Developh" style="width:400px;background:none;box-shadow:none;">Collab with us at the intersection of technology and advocacy</a>
+                </h4>
             </div>
             <div style="text-align:center;padding:3em;z-index:4;">
                 <!-- Begin MailChimp Signup Form -->
@@ -300,21 +300,35 @@
                     #partners img {
                         padding: 1em;
                         box-sizing: border-box;
-                    }
-
-                    #partners img:hover {
-
                         -webkit-filter: grayscale(100%);
                         /* Safari 6.0 - 9.0 */
                         filter: grayscale(100%);
+
+                        transition: all 0.23s ease-in-out 0.1s;
+                    }
+
+                    #partners img:hover {
+                        transform: scale(1.1, 1.1);
+                        -webkit-filter: grayscale(0%);
+                        /* Safari 6.0 - 9.0 */
+                        filter: grayscale(0%);
                     }
 
                     #partners .partnerbilling-top img {
-                        width: 350px;
+                        width: 320px;
                     }
 
                     #partners .partnerbilling-2nd img {
-                        width: 280px;
+                        width: 230px;
+                    }
+
+                    .landing-about a,
+                    .landing-about u {
+                        text-decoration: underline;
+                        font-family: "Poppins";
+                        font-weight: 600;
+                        font-size: 16px !important;
+                        color: #fff;
                     }
                 </style>
                 <div class="landing-signup fadeInUp wow" style="padding:0em 2em 1em 2em;z-index:4 !important;">
@@ -374,15 +388,17 @@
                             We're living in an age where the youth can change the world
                             from their bedrooms.
                         </h3>
-                        <p class="wow fadeIn" style="color:#fff;text-align: left;text-shadow:0 0 20px #1d2caf;line-height:28px;font-weight:100;">
-                            Developh is an international nonprofit working to make technology more equitable across the developing world, by investing in innovation for social good.<br><br>
-                            In the Philippines, only 13% of households have access to
-                            a computer, minorities in technology face numerous barrierrs in technology, and a majority of educational institutions lack equitable computer science education. Technology is everywhere, but not built by the masses.
-                            <br /><br />Developh is stepping in and shifting the technology pipeline across the Asia-Pacific.<br />We're connecting the youth to creation, and nurturing the student founder community. <a href="about">Develph</a> works on <strong>education and accelerator</strong> initiatives, building equitable opportunities to help more students explore pathways in technology. By bringing more youth into technology, we're shaping a technology ecosystem that is more representative of all.<br><br>
+                        <p class="wow fadeInUp landing-about" style="color:#e8f4f5;font-size:20px;font-family:Work Sans;font-weight:800;">By making entry paths to technology more accessible, Developh invests in student founders to diversify the innovation we see.</p>
+                        <p class="wow fadeIn landing-about" style="color:#fff;text-align: left;text-shadow:0 0 20px #1d2caf;line-height:28px;font-weight:100;margin-top:2em;">In its most successful spaces, <u>technology is incredibly student-driven</u>&mdash;but this isn't the case in developing nations.
+                            <br><br>
+                            Developh is an international nonprofit investing in student-led innovation for social good. We aim to make technology more equitable and reshift the technology pipeline: <u>engaging students in startup ecosystems</u> across the Asia-Pacific and giving students the critical <u>skills, support, and community</u> to succeed during the best time for them to be a founder.<br>
+                            By helping more young people explore and pursue pathways in technology, we're shaping an ecosystem more representative of all.<br><br>
+                            Since 2016, we've run <a href="projects">education</a> programs to teach code, design, and entrepreneurship to underserved communities and built our <u>online community</u>. In 2019, we're launching <a href="collab">Collab</a>: by-students for-students accelerator focusing on impactful collaborations with mission-based groups; and <a href="http://technology.ph" target="_blank">Technology.ph</a>, a youth-driven digital publication on everything tech.
+                            <br><br>
                             In a world fueled by technology, <strong style="font-family:'Termina';text-transform: uppercase;font-size:14.5px;">every student deserves to be a part of coding the future.</strong>
                         </p>
                         <a class="bigbtn" href="http://facebook.com/groups/developh">Member Group</a>
-                        <a class="bigbtn" href="http://developh.org/deck">Developh Deck</a>
+                        <a class="bigbtn" title="Learn the nitty gritty about our organization" href="http://developh.org/deck">Developh Deck</a>
                     </center>
                 </div>
             </div>
@@ -441,7 +457,7 @@
 
 
                 <div style="margin:0 auto;padding:2em;">
-                    <h3 style="margin:0;font-size:14px;text-transform: uppercase;font-weight:00;color:#b8bec6;font-family:'Poppins';">PAST AND CURRENT PARTNERS</h3>
+                    <h3 style="margin:0;font-size:14px;text-transform: uppercase;font-weight:00;color:#b8bec6;font-family:'Poppins';">Supported by</h3>
 
                     <div class="partnerbilling-top">
                         <img src="img/partners/anitaborg.jpg" alt="AnitaB.org">
@@ -515,7 +531,10 @@
 
 
             <div class="box" id="description-block">
-                <div class="boxinner" style="width:90%;padding:1em;max-width:1000px;text-align:center;margin:auto;">
+                <div class="boxinner" style="width:90%;padding:2em;max-width:1000px;text-align:center;margin:auto;">
+
+                    <h2 style="font-family:Termina;font-size:20px;color:#f5faec;"> Interested in what we do?</h2>
+                    <p style="line-height:20px;">Talk to us at hello@developh.org.<br>We always love saying 👋 hello to students, founders, community leaders, companies, and more.</p>
 
                 </div>
             </div>
