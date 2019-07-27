@@ -222,13 +222,11 @@
 .project-sponsors img {
     padding: 1em;
     box-sizing: border-box;
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    transition: all 0.23s ease-in-out 0.1s;
 }
 
 .project-sponsors img:hover {
-    transform: scale(1.5, 1.5);
+    transform: scale(1.1, 1.1);
     -webkit-filter: grayscale(0%);
     /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
