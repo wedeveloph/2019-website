@@ -376,11 +376,23 @@
 
 
 
-        <div class="box" id="special-collab" style="background:#1a2ab4;background-image:url(img/landing/collab-bg.jpg);background-size:contain;background-repeat:no-repeat;min-height: 100%; overflow-x:hidden;position: relative;">
-            <div class="wow fadeIn" style="position:absolute;top:0;left:0;bottom:0;right:0;width:35%;left:50%;margin-left:-17.5%;top:105px;padding:1.4em;box-sizing: border-box;"><img src="img/landing/collab-earth.png"></div>
-            <div style="position:absolute;top:0;left:0;bottom:0;right:0; width:35%;left:50%;margin-left:-17.5%;top:100px;"><img src="img/landing/collab-circley.png"></div>
-            <div class="box-inner" style="width:90%;padding:1em;margin:auto;">
+        <div class="box" id="special-collab" style="background:#1a2ab4;background-image:url(img/landing/collab-bg.jpg);background-size:cover;background-repeat:no-repeat;min-height: 650px; overflow-x:hidden;position: relative;">
 
+            <style type="text/css">
+                .collab-earth img {
+                    transition: all 0.23s ease-in-out 0.1s;
+                }
+
+                .collab-earth img:hover {
+                    transform: scale(1.1, 1.1);
+                }
+            </style>
+
+            <div class="wow fadeIn collab-earth" style="z-index:9999; position:absolute;top:0;left:0;bottom:0;right:0;width:350px;left:50%;margin-left:-175px;top:105px;padding:2em;box-sizing: border-box;"><a href="collab/" title="Collab with us"><img src="img/landing/collab-earth.png"></a></div>
+
+            <div style="position:absolute;top:0;left:0;bottom:0;right:0; width:350px;left:50%;margin-left:-175px;top:100px;"><img src="img/landing/collab-circley.png"></div>
+            <div class="box-inner" style="max-width:600px;padding:1em;left:0;right:0;bottom:50px;position: absolute; padding:1em;margin:auto;">
+                <p style="color:#e6f0f4;text-align: center;">Join us on the 24th at Amazon Philippines for the launch of Collab, our by-students for-students accelerator working on meaningful collaboratings with mission-based organizations.</p>
 
             </div>
         </div>
