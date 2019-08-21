@@ -256,9 +256,10 @@
 }
 
 #pitchday .pitchday-advocacypartner {
-    width: 200px;
+    width: 120px;
     display: inline-block;
     padding: 1em;
+    margin: 1em;
 }
 
 #pitchday .pitchday-advocacypartner h1 {
@@ -278,8 +279,7 @@
 
 
 #pitchday .pitchday-advocacypartner img {
-    border-radius: 100%;
-    width: 100px;
+    width: 100%;
 }
 
 
