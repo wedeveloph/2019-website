@@ -35,7 +35,6 @@
 
     <style>
         .press-container {
-            background: red;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -51,6 +50,15 @@
             background-size: cover;
             background-position: center;
             box-shadow: 0 10px 20px #182198;
+            -webkit-transition: all .3s linear;
+            -moz-transition: all .3s linear;
+            -ms-transition: all .3s linear;
+            -o-transition: all .3s linear;
+            transition: all .3s linear;
+        }
+
+        .press-item:hover h3 {
+            text-shadow: 0 0 50px #fff;
         }
 
 
@@ -109,8 +117,8 @@
                 </p>
             </div>
         </div>
-        <div class="box" id="content">
-            <div class="boxinner" style="width:90%;box-sizing: border-box;padding:1em;margin:auto;position: relative;">
+        <div class="box" id="content" style="padding-bottom:1em;justify-content: center;display:flex;">
+            <div class="boxinner" style="width:90%;display: flex;justify-content: center;">
 
                 <div class="press-container">
                     <a href="https://www.offcrowd.com/stories/innovation/develophs-collab-pitch-day-as-it-brings-student-led-accelerator-model-from-silicon-valley-to-the-ph" target="_blank" title="OffCrowd: Developh's Collab Pitch Day Brings Student-led Accelerator Model from Silicon Valley to the Philippines">
