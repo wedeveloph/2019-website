@@ -34,6 +34,38 @@
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
     <style>
+        .press-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .press-item {
+            display: inline-block;
+            width: 300px;
+            margin: 1em;
+            padding: 1em;
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0 10px 20px #182198;
+        }
+
+
+        .press-item h3 {
+            font-family: "Work Sans";
+            color: #fff;
+            line-height: 22px;
+            text-align: left;
+            margin: -.5em 0 0 0;
+            padding: 1em;
+        }
+
+        .press-item h4 {
+            text-align: center;
+            font-family: "Rubik";
+            font-size: 12px;
+            color: #fff;
+            margin: .5em;
+        }
 
     </style>
 
@@ -74,7 +106,34 @@
             </div>
         </div>
         <div class="box" id="content">
-            <div class="boxinner" style="width:100%;box-sizing: border-box;padding:1em;max-width:1350px;text-align:center;margin:auto;margin-top:-50px;background-repeat: no-repeat;background-image:url(img/about-ec.jpg);background-position:top center;text-shadow:0 0 40px #2c2981;">
+            <div class="boxinner" style="width:100%;box-sizing: border-box;padding:1em;max-width:1350px;text-align:center;margin:auto;margin-top:-50px;text-shadow:0 0 40px #2c2981;">
+
+                <div class="press-container">
+                    <a href="https://www.offcrowd.com/stories/innovation/develophs-collab-pitch-day-as-it-brings-student-led-accelerator-model-from-silicon-valley-to-the-ph" target="_blank" title="OffCrowd: Developh's Collab Pitch Day Brings Student-led Accelerator Model from Silicon Valley to the Philippines">
+                        <div class="press-item" style="background-image:url(img/press/collab-1.jpg);">
+                            <h4>OffCrowd</h4> <!-- Publication  -->
+                            <h3>Developh's Collab Pitch Day brings student-led accelerator model from Silicon Valley to the Philippines</h3> <!-- Publication Title -->
+                        </div>
+                    </a>
+
+
+                    <a href="http://ambidextr.media/developh-brings-student-led-accelerator-model-from-silicon-valley-to-the-philippines-kicking-off-with-a-pitch-competition-recognizing-its-most-innovative-teams-last-august-24/" target="_blank" title="Ambidextr: Developh Brings Student-Led Accelerator Model from Silicon Valley to the Philippines, Recognizing Its Most Innovative Teams Last August 24">
+                        <div class="press-item" style="background-image:url(img/press/collab-2.jpg);">
+                            <h4>Ambidextr</h4> <!-- Publication  -->
+                            <h3>Developh Brings Student-Led Accelerator Model from Silicon Valley to the Philippines, Recognizing Its Most Innovative Teams Last August 24 </h3> <!-- Publication Title -->
+                        </div>
+                    </a>
+
+
+                    <a href="https://pop.inquirer.net/78667/developh-is-launching-collab-pitch-day-a-by-students-for-students-accelerator-making-technology-for-social-good" target="_blank" title="Inquirer Pop! Developh is launching Collab Pitch Day: a by-students, for-students accelerator making technology for social good">
+                        <div class="press-item" style="background-image:url(img/press/collab-3.jpg);">
+                            <h4>Inquirer Pop</h4> <!-- Publication  -->
+                            <h3>Developh is launching Collab Pitch Day: a by-students, for-students accelerator making technology for social good</h3> <!-- Publication Title -->
+                        </div>
+                    </a>
+
+
+                </div>
 
             </div>
         </div>
@@ -213,6 +272,7 @@
                         color: #374145;
                         width: 100%;
                     }
+
                 </style>
                 <div class="landing-signup fadeInUp wow" style="padding:0em 2em 1em 2em;"><br>
                     <h4 style="color:#a2a8b2; font-family:Poppins; margin:0;font-size:14px;font-weight:900;">
@@ -268,11 +328,13 @@
             document.write(
                 '<script src="js/vendor/jquery-1.11.2.min.js"><\/script>'
             );
+
     </script>
     <script src="js/main.js"></script>
     <script src="js/wow.js"></script>
     <script>
         new WOW().init();
+
     </script>
     <script src="js/typed.js"></script>
 </body>
