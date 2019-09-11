@@ -40,11 +40,13 @@
             justify-content: center;
             max-width: 90%;
             align-items: center;
+            min-height: 600px;
         }
 
         .press-item {
             display: inline-block;
             width: 300px;
+            min-height: 180px;
             margin: 1em;
             padding: 1em;
             background-size: cover;
@@ -63,8 +65,9 @@
 
 
         .press-item h3 {
-            font-family: "Work Sans";
+            font-family: "Poppins";
             color: #fff;
+            font-size: 17px;
             line-height: 22px;
             text-align: left;
             margin: -.5em 0 0 0;
@@ -77,6 +80,17 @@
             font-size: 12px;
             color: #fff;
             margin: .5em;
+        }
+
+        .press-item h4::after {
+
+            background: url(img/press/skwog.png) no-repeat;
+            background-position: center;
+            display: block;
+            width: 100%;
+            height: 12px;
+            content: "";
+            text-align: center;
         }
 
     </style>
@@ -121,6 +135,24 @@
             <div class="boxinner" style="width:90%;display: flex;justify-content: center;">
 
                 <div class="press-container">
+
+
+                    <a href="https://news.yale.edu/2018/09/21/chiara-amisola-wins-student-vision-abie-award" target="_blank" title="Yale News: Chiara Amisola wins Student of Vision Abie Award">
+                        <div class="press-item" style="background-image:url(img/press/chia-1.jpg);">
+                            <h4>Yale News</h4> <!-- Publication  -->
+                            <h3>Chiara Amisola wins Student of Vision Abie Award</h3> <!-- Publication Title -->
+                        </div>
+                    </a>
+
+
+                    <a href="https://technology.ph/features/collabs-pitch-day-brings-the-filipino-youth-at-the-front-of-innovation/" target="_blank" title="Technology.ph: Collab’s Pitch Day brings the Filipino youth at the front of innovation
+">
+                        <div class="press-item" style="background-image:url(img/press/collab-4.jpg);">
+                            <h4>Technology.ph</h4> <!-- Publication  -->
+                            <h3>Collab’s Pitch Day brings the Filipino youth at the front of innovation</h3> <!-- Publication Title -->
+                        </div>
+                    </a>
+
                     <a href="https://www.offcrowd.com/stories/innovation/develophs-collab-pitch-day-as-it-brings-student-led-accelerator-model-from-silicon-valley-to-the-ph" target="_blank" title="OffCrowd: Developh's Collab Pitch Day Brings Student-led Accelerator Model from Silicon Valley to the Philippines">
                         <div class="press-item" style="background-image:url(img/press/collab-1.jpg);">
                             <h4>OffCrowd</h4> <!-- Publication  -->
