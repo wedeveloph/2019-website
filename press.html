@@ -223,20 +223,18 @@
     </script>
     <script src="js/main.js"></script>
     <script src="js/wow.js"></script>
-    <script>
-        new WOW().init();
+<script>
+    new WOW().init();
 
-    </script>
+    $(function() {
+        $("#footer-container").load("footer-container.html")
+    });
+</script>
+    
+    
     <script src="js/typed.js"></script>
 
-
-
-    <script>
-        $(function() {
-            $("#footer-container").load("footer-container.html")
-        });
-
-    </script>
+    
 </body>
 
 </html>
