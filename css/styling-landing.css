@@ -374,10 +374,9 @@ p a:hover {
 
 
 .studentsare h2 {
-    color: #fff;
-    margin: 0;
+    color: red;
     line-height: 18px;
-    font-size: 32pt;
+    font-size: 38pt !important;
 }
 
 .studentsare em {
@@ -385,7 +384,7 @@ p a:hover {
     font-style: normal;
     color: #A9B3F5;
     font-weight: 300;
-    font-size: 14pt;
+    font-size: 17pt;
 }
 
 
