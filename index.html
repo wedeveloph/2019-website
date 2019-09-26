@@ -83,6 +83,7 @@
             transform: translateY(-3px);
             box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
         }
+
     </style>
 </head>
 
@@ -319,14 +320,14 @@
                         width: 230px;
                     }
 
-                    .landing-about a,
-                    .landing-about u {
-                        text-decoration: underline;
-                        font-family: "Poppins";
-                        font-weight: 600;
-                        font-size: 16px !important;
-                        color: #fff;
+                    .landing-about a {
+                        color: #fff !important;
                     }
+
+                    .landing-about u {
+                        text-decoration: none;
+                    }
+
                 </style>
                 <div class="landing-signup fadeInUp wow" style="padding:0em 2em 1em 2em;z-index:4 !important;">
 
@@ -404,15 +405,14 @@
                     <img src="img/landing-picture1.jpg" />
                 </div>
 
-                <div class="content-block" style="position:relative;margin:auto;text-align: center;width:90%;max-width:800px;left:0;right:0;z-index:3;">
+                <div class="content-block" style="position:relative;margin:auto;text-align: center;width:90%;max-width:700px;padding:2em;left:0;right:0;z-index:3;">
                     <center>
                         <br /><br />
                         <h3 style="margin:0;font-size:14px;text-transform: uppercase;font-weight:00;color:#8ecce2;font-family:'Poppins';">ABOUT US</h3>
                         <h3 class="wow fadeInDown" style="font-family:'Termina';color:#fff;text-shadow:0 0 80px #123582;font-size:24px;font-weight:00;width:450px;margin-top:0;">
-                            We're living in an age where the youth can change the world
-                            from their bedrooms.
+                            We're nurturing student founders to diversify the type of innovation we see.s
                         </h3>
-                        <p class="wow fadeInUp landing-about" style="color:#e8f4f5;font-size:20px;font-family:Work Sans;font-weight:800;">By making entry paths to technology more accessible, Developh invests in student founders to diversify the innovation we see.</p>
+                        <p class="wow fadeInUp landing-about" style="color:#f3f8f8;">By making entry paths to technology more accessible, Developh invests in student founders to diversify the innovation we see.</p>
                         <p class="wow fadeIn landing-about" style="color:#fff;text-align: left;text-shadow:0 0 20px #1d2caf;line-height:28px;font-weight:100;margin-top:2em;">In its most successful spaces, <u>technology is incredibly student-driven</u>&mdash;but this isn't the case in developing nations.
                             <br><br>
                             Developh is an international nonprofit investing in student-led innovation for social good. We aim to make technology more equitable and reshift the technology pipeline: <u>engaging students in startup ecosystems</u> across the Asia-Pacific and giving students the critical <u>skills, support, and community</u> to succeed during the best time for them to be a founder.<br>
@@ -557,7 +557,7 @@
 
 
         <div class="box" id="description-block">
-            <div class="boxinner" style="width:90%;padding:2em;max-width:1000px;text-align:center;margin:auto;">
+            <div class="boxinner" style="width:90%;padding:2em 2em 0 2em;max-width:1000px;text-align:center;margin:auto;">
 
                 <h2 style="font-family:Termina;font-size:20px;color:#f5faec;"> Interested in what we do?</h2>
                 <p style="line-height:20px;">Talk to us at hello@developh.org.<br>We always love saying 👋 hello to students, founders, community leaders, companies, and more.</p>
@@ -574,6 +574,7 @@
             document.write(
                 '<script src="js/vendor/jquery-1.11.2.min.js"><\/script>'
             );
+
     </script>
     <script src="js/main.js"></script>
     <script src="js/wow.js"></script>
@@ -584,6 +585,7 @@
         $(function() {
             $("#footer-container").load("footer-container.html")
         });
+
     </script>
 
 
