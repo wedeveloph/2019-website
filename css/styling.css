@@ -139,13 +139,18 @@ body {
 
 .container {
     position: absolute;
-    min-width: 100%;
+    width:100%;
+    box-sizing: border-box;
     height: 100%;
     top: 0;
     left: 0;
+    display:flex;
+    flex-wrap:wrap;
 }
 
 .box {
+    padding:1em;
+    box-sizing: border-box;
     display: block;
     max-width: 100%;
     top: 0;
