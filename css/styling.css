@@ -45,10 +45,13 @@ body {
     line-height: 28px;
 }
 
+#footer-container{width:100%;}
+
 #footer {
     background: #FFFFFF;
     padding: 1.2em 0 1.5em 0;
     bottom: 0;
+    width:100%;
     min-height: 150px;
     background: linear-gradient(124deg, #1824C7, #206D85, #37BFB8, #D252DE, #1B16A8, #0B287D);
     background-size: 1800% 1800%;
@@ -152,7 +155,7 @@ body {
     padding:1em;
     box-sizing: border-box;
     display: block;
-    max-width: 100%;
+    width:100%;
     top: 0;
     left: 0;
     justify-content: center;
