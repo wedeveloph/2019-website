@@ -1,0 +1,252 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+ :root {
+
+     --bg-color: #211d1d;
+     --bg-dark-color: #121212;
+
+     --text-color: #b5b5b1;
+     --text-color-darker: #252427;
+     --text-dark-color: #768081;
+     --text-light-color: #c9c6d1;
+     --text-accent: #141cd1;
+
+     --ele-light: #e5e4eb;
+     --ele-line: #535353;
+     --ele-highlight: #141cd1;
+
+ }
+
+ .dark {
+
+
+     background: var(--bg-dark-color);
+     color: var(--text-dark-color);
+
+ }
+
+
+ body {
+     font-family: "Inter", "Helvetica", system-ui, -apple-system, BlinkMacSystemFont;
+     background: var(--bg-color);
+     color: var(--text-color);
+     text-rendering: optimizeLegibility;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     padding-top:1em;
+     
+     font-weight:400;
+     line-height: 1.5em;
+
+ }
+
+
+ #container {
+     position: absolute;
+     top: 0; left: 0;
+     
+     display: flex;
+     flex-wrap: wrap;
+     
+     justify-content: center;
+     align-content: flex-start;
+     align-items: center;
+
+     box-sizing: border-box;
+     padding: 1em;
+     height:100%;
+     width:100%;
+ }
+
+.box{
+    width:100%;
+    align-self: center;
+}
+
+ .box.box-80 {
+     width: 80vw;
+ }
+
+ /* LISTS */
+
+ li {
+     line-height: 1.4em;
+ }
+
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+    font-weight:500;
+    margin:.5em 0;
+    word-break: break-word;
+ }
+
+
+h1{ margin-top: 0;}
+
+ p {
+     padding-left:.2em;
+}
+
+
+ /* TEXT */
+
+ a {
+     color: var(--text-color);
+ }
+
+ a:hover {
+     color: var(--text-accent);
+     text-decoration: underline;
+ }
+
+
+ mark {
+     background: var(--ele-highlight);
+     padding: 0 .2em;
+ }
+
+::selection {
+     background: var(--ele-highlight);
+    color:#fff;
+    
+}
+::-moz-selection {
+     background: var(--ele-highlight);
+    color:#fff;
+}
+
+ /* ELEMENTS */
+
+
+hr{
+    margin:2em 0;
+    border:1px solid var(--ele-line);
+}
+
+ button,
+ select,
+ input[type='submit'],
+ input[type='button'],
+ input[type='checkbox'],
+ input[type='range'],
+ input[type='radio'] {
+     cursor: pointer;
+ }
+
+blockquote, q{
+  border-left: 4px solid var(--ele-light);
+  margin: 1.5em 0em;
+  padding: 0.5em 1em;
+}
+
+ code,
+ textarea {
+     box-sizing: border-box;
+     background: var(--ele-light);
+     border-radius: .5em;
+     padding: .2em;
+ }
+
+ pre code,
+ textarea, input, button {
+     font-size: .9em;
+     display: inline-block;
+     color: var(--text-color-darker);
+     
+     padding: .5em;
+     border: none;
+     border-radius: .5em;
+  font-family: inherit;
+  font-size: inherit;
+ }
+
+ cite {
+     display: inline;
+     padding: 0;
+ }
+
+select{
+    padding:.3em;
+    background: var(--ele-light);
+}
+
+
+textarea:disabled,
+input:disabled,
+select:disabled,
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* FORMS */
+
+input:not([type='checkbox']):not([type='radio']),
+select {
+  border-radius: .5em;
+  display: inline-block;
+}
+
+
+
+input[type='checkbox'],
+input[type='radio'] {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  margin-right: 2px;
+}
+
+input[type='checkbox']:checked,
+input[type='radio']:checked {
+  background: var(--button-hover);
+}
+
+input[type='checkbox']:checked::before,
+input[type='radio']:checked::before {
+  content: '•';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+input[type='checkbox']:checked::before {
+  content: '✔';
+  transform: translateY(-50%) translateY(0.5px) translateX(-6px);
+}
+
+input[type='checkbox']:active,
+input[type='radio']:active,
+input[type='submit']:active,
+input[type='button']:active,
+input[type='range']:active,
+button:active {
+  transform: translateY(2px);
+}
+
+
+select {
+  background: var(--ele-light);
+  font-size:.8em;
+  padding:.5em;
+  padding-right: 35px;
+}
+
+select::-ms-expand {
+  display: none;
+}

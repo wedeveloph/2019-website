@@ -1,0 +1,250 @@
+:root {
+
+    --accent: #fff;
+    --accent-over: #e5e0e0;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.2em;
+}
+
+section {
+    text-align: center;
+    width: 100%;
+}
+
+.box {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#header.box {
+    padding: 1.3em 0 4em 0;
+    min-height: 370px;
+    height: 35vw;
+    max-height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .box-inner {
+    padding: 3vw;
+    box-sizing: border-box;
+}
+
+#list.box {
+    padding: 1.4em 0;
+}
+
+h1.site-title {
+    font-size: 3.2em;
+    line-height: 1.2em;
+    padding-top: .5em;
+    color: #fff;
+}
+
+h1.site-title span {
+    display: block;
+    font-size: 18px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #7c7c7c;
+
+}
+
+a.link {
+    display: inline-block;
+    border-radius: 3px;
+    padding: .5em;
+    min-width: 100px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: .2em 1em;
+    border: 1px solid var(--accent);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+a.link:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+/* TABLE */
+
+#internships {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#internships a {
+    color: #c9c6d1;
+    text-decoration: none;
+    padding: 1em;
+    text-align: center;
+}
+
+#internships a:hover {
+    text-shadow: 0 0 20px #fff;
+}
+
+.internships-top {
+    width: 100%;
+    justify-content: space-around;
+}
+
+#internships h2 {
+    float: left;
+    font-size: 1.3em;
+}
+
+#internships input.t-search {
+    float: right;
+    display: inline-block;
+    width: 60%;
+    max-width: 270px;
+}
+
+
+table {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+    font-size: 1em;
+    clear: both;
+
+}
+
+table.internship-table {}
+
+thead tr {
+    text-align: left;
+    font-size: 1.3em;
+}
+
+th {
+    padding: 0 .7em;
+}
+
+td {
+    box-sizing: border-box;
+    padding: 1em 1.2em;
+    vertical-align: top !important;
+}
+
+tr {
+    line-height: 3.5em;
+    vertical-align: middle;
+    border-bottom: 1px solid #ccc;
+}
+
+tr th.th-sort {
+    cursor: s-resize;
+}
+
+thead {
+    color: var(--accent);
+    text-transform: capitalize;
+}
+
+td.t-name {
+    font-weight: 600;
+    color: #fff;
+    font-size: .9em;
+    line-height: 1.4em;
+    width: 22%;
+    max-width: 200px;
+}
+
+td.t-pay {
+    line-height: 1.3em;
+    width: 15%;
+    font-size: .8em;
+    text-transform: capitalize;
+}
+
+
+td.t-notes {
+    font-size: calc(11px + .3vw);
+    line-height: 1.3em;
+
+}
+
+
+td.t-pay[data-pay="salary"]::after {
+    content: " 💸";
+}
+
+
+td.t-pay[data-pay="stipend only"]::after {
+    content: " 🚌";
+}
+
+/* FOOTER */
+
+#footer {
+    padding-top: 3.5em;
+}
+
+#footer a,
+footer a {
+    text-decoration: none;
+    color: var(--accent);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#footer a:hover,
+footer a:hover {
+    color: var(--accent-over);
+    text-shadow: 0 0 15px var(--accent-over);
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .internships-top {
+        margin: .8em;
+
+    }
+
+    #internships h2,
+    #internships input.t-search {
+        float: left;
+    }
+
+    body {
+        font-size: 1em;
+    }
+
+    td {
+        padding-left: .3em;
+        padding-right: .3em;
+    }
+
+    td.t-name {}
+
+    td.t-pay {}
+
+
+    td.t-notes {}
+
+
+}
